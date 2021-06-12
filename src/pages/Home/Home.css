@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+#head {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/header.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(home.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+#head h2 {
+    padding-top: 20%;
+}
+
+#head h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+}
+
+/* SECOND_SECTION */
+
+#second-section {
+    align-items: center;
+    margin: 5% auto;
+}
+
+#second-section p {
+    font-size: 1.3rem;
+}
+
+#second-img img {
+    width: 50%;
+}
+
+#story-button {
+    text-decoration-color: black;
+    text-decoration-thickness: 1px;
+}
+
+#story-button h3 {
+    color: black;
+    font-size: 1.5rem;
+}
+
+/* MENU-SECTION */
+
+#menu-section {
+    background-color: #000;
+}
+
+#menu-section h2,
+#menu-section h3,
+#menu-section p {
+    color: #ffffff;
+}
+
+#menu-section h2,
+#menu-section h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#menu-section p {
+    font-size: 1.2rem;
+}
+
+#arrow-right {
+    color: #ffffff;
+}
+
+#menu-button {
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 1px;
+}
+
+/* MEDIA */
+
+@media screen and (max-width: 768px) {
+    #head h1 {
+        font-size: 2.5rem;
+    }
+
+    #head h2 {
+        font-size: 2rem;
+    }
+
+    #head > div {
+        padding-top: 50%;
+    }
+}

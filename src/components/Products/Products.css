@@ -1,0 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.product {
+    padding-top: 60%;
+}
+
+.product h3,
+.description {
+    color: #fff;
+}
+
+.product h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+
+.product p {
+    font-size: 1.3rem;
+}
+
+.price {
+    color: red;
+}

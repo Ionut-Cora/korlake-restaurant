@@ -1,0 +1,39 @@
+
+#allstory h1 {
+    padding: 5%;
+}
+
+#food {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% auto;
+}
+
+#food img {
+    width: 20%;
+    opacity: 0.8;
+    -webkit-transform: scale(1.10);
+    transform: scale(1.10);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+#food img:hover {
+    opacity: 1;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+
+#header-img {
+    width: 100%;
+}
+
+#paragraphs p {
+    font-size: 1.5rem;
+}
+
+#stage {
+    width: 50%;
+}
