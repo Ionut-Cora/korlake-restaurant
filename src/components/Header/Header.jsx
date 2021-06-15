@@ -8,7 +8,7 @@ function Header() {
         <div id="navbar">
             <Navbar fixed="top" bg="light" expand="lg">
                 <div className="d-flex container">
-                    <Navbar.Brand id="logo" href="/">Korlake</Navbar.Brand>
+                    <Link id="logo" to="/">Korlake</Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
