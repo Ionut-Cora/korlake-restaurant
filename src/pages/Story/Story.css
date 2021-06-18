@@ -11,19 +11,6 @@
 
 #food img {
     width: 20%;
-    opacity: 0.8;
-    -webkit-transform: scale(1.10);
-    transform: scale(1.10);
-    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
-    transition: opacity 0.5s, -webkit-transform 0.5s;
-    transition: transform 0.5s, opacity 0.5s;
-    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
-}
-
-#food img:hover {
-    opacity: 1;
-    -webkit-transform: scale(1.03);
-    transform: scale(1.03);
 }
 
 #header-img {
@@ -37,3 +24,9 @@
 #stage {
     width: 50%;
 }
+
+/* @media screen and (max-width: 600px) {
+    #food img {
+        display: none;
+    }
+} */
