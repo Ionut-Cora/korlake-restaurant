@@ -1,53 +1,43 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-
 #head-title {
     background-color: #262626;
     padding-top: 5%;
     padding-bottom: 1%;
-    font-family: 'Dancing Script', cursive;
 }
 
 #head-title h1 {
     color: white;
     font-size: 3rem;
-    padding-top: 3%;
+    padding: 3rem 0;
 }
 
 #breakfast {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../utils/img/breakfast-background.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../utils/img/breakfast-background.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    clip-path: polygon(0 0, 0 94%, 100% 100%, 100% 6%);
 }
 
 #lunch {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../utils/img/lunch-background.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../utils/img/lunch-background.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    clip-path: polygon(0 0, 0 94%, 100% 100%, 100% 6%);
 }
 
 #dinner {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../utils/img/dinner-background.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../utils/img/dinner-background.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    clip-path: polygon(0 0, 0 94%, 100% 100%, 100% 6%);
 }
 
 #dessert {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../utils/img/dessert-background.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../utils/img/dessert-background.jpg);
+}
+
+#breakfast,
+#lunch,
+#dinner,
+#dessert {
     background-size: cover;
     background-position: center;
-    height: 100vh;
-    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 6%);
+    min-height: 100vh;
 }
 
 .background-product {
@@ -58,21 +48,17 @@
     background-color: #FFCD58;
 }
 
-#breakfast-title {
-    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%);
-}
-
-#breakfast-title h2 {
-    padding-top: 5%;
-    padding-bottom: 3%;
-}
-
 .menu-title h2 {
     margin-bottom: 0;
-    font-family: 'Dancing Script', cursive;
     font-size: 2.5rem;
 }
 
 #background-menu-title {
     background-color: #262626;
+}
+
+@media screen and (max-width: 600px) {
+    #head-title {
+        padding-top: 4rem;
+    }
 }

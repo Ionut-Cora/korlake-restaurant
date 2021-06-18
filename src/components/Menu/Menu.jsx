@@ -40,7 +40,7 @@ function Menu() {
                 </div>
 
                 <div id="background-menu-title">
-                    <div className="menu-title" id="breakfast-title">
+                    <div className="menu-title p-5" id="breakfast-title">
                         <h2>Breakfast</h2>
                     </div>
                 </div>

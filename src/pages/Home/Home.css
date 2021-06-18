@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 #head {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/header.jpg);
@@ -15,7 +13,6 @@
 }
 
 #head h1 {
-    font-family: 'Dancing Script', cursive;
     font-size: 5rem;
 }
 
@@ -54,11 +51,6 @@
 #menu-section h3,
 #menu-section p {
     color: #ffffff;
-}
-
-#menu-section h2,
-#menu-section h3 {
-    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #menu-section p {
