@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/korlake-restaurant/static/css/main.386118a9.chunk.css",
+    "main.css": "/korlake-restaurant/static/css/main.990d13a9.chunk.css",
     "main.js": "/korlake-restaurant/static/js/main.b873b578.chunk.js",
     "main.js.map": "/korlake-restaurant/static/js/main.b873b578.chunk.js.map",
     "runtime-main.js": "/korlake-restaurant/static/js/runtime-main.84eb0923.js",
@@ -12,7 +12,7 @@
     "static/js/3.bc61ff31.chunk.js.map": "/korlake-restaurant/static/js/3.bc61ff31.chunk.js.map",
     "index.html": "/korlake-restaurant/index.html",
     "static/css/2.658248ec.chunk.css.map": "/korlake-restaurant/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.386118a9.chunk.css.map": "/korlake-restaurant/static/css/main.386118a9.chunk.css.map",
+    "static/css/main.990d13a9.chunk.css.map": "/korlake-restaurant/static/css/main.990d13a9.chunk.css.map",
     "static/js/2.2edf94c5.chunk.js.LICENSE.txt": "/korlake-restaurant/static/js/2.2edf94c5.chunk.js.LICENSE.txt",
     "static/media/beef.0157bfd7.jpg": "/korlake-restaurant/static/media/beef.0157bfd7.jpg",
     "static/media/Menu.css": "/korlake-restaurant/static/media/lunch-background.d643cefd.jpg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.84eb0923.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.2edf94c5.chunk.js",
-    "static/css/main.386118a9.chunk.css",
+    "static/css/main.990d13a9.chunk.css",
     "static/js/main.b873b578.chunk.js"
   ]
 }
