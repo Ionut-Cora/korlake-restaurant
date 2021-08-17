@@ -13,7 +13,6 @@
 #food img {
     width: 33.3%;
     filter: brightness(75%);
-    height: auto;
 }
 
 #food img:hover {
@@ -30,4 +29,10 @@
 
 #stage {
     width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    #food img {
+        width: 50%;
+    }
 }
