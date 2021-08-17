@@ -1,7 +1,7 @@
 
 #head-title {
     background-color: #262626;
-    padding-top: 5%;
+    padding-top: 1%;
     padding-bottom: 1%;
 }
 
@@ -55,10 +55,4 @@
 
 #background-menu-title {
     background-color: #262626;
-}
-
-@media screen and (max-width: 600px) {
-    #head-title {
-        padding-top: 4rem;
-    }
 }

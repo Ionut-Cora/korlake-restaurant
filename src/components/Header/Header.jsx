@@ -6,7 +6,7 @@ import './Header.css';
 function Header() {
     return(
         <div id="navbar">
-            <Navbar fixed="top" bg="light" expand="lg">
+            <Navbar id="nav" expand="lg">
                 <div className="d-flex container">
                     <Link id="logo" to="/">Korlake</Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

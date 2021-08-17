@@ -13,6 +13,9 @@ function Home() {
 
                         <h2 className="text-white">Welcome to</h2>
                         <h1 className="text-white">Korlake Restaurant</h1>
+                        <Link to='/menu' id="menu-button">
+                            <button id="top-button">Menu</button>
+                        </Link>
 
                     </div>
                 </div>

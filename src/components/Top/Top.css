@@ -1,0 +1,37 @@
+
+#top {
+    width: 73%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#top-phone {
+    display: flex;
+    align-items: center;
+}
+
+#top-phone ion-icon {
+    font-size: 1.3rem;
+}
+
+#top-phone p {
+    font-size: 1.2rem;
+}
+
+#top-phone p {
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+#top-other ion-icon {
+    margin: 0 5px;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 600px) {
+    #top {
+        width: 95%;
+    }
+}

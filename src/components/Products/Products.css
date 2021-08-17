@@ -19,3 +19,9 @@
 .price {
     color: red;
 }
+
+@media screen and (max-width: 600px) {
+    .product {
+        padding-top: 20%;
+    }
+}

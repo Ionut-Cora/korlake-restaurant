@@ -1,5 +1,4 @@
 
-
 #head {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(img/header.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(home.jpg);
@@ -14,6 +13,21 @@
 
 #head h1 {
     font-size: 5rem;
+}
+
+#top-button {
+    background-color: #FFCD58;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#top-button:hover {
+    background-color: #ffc233;
 }
 
 /* SECOND_SECTION */

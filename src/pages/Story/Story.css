@@ -7,10 +7,16 @@
     display: flex;
     justify-content: space-around;
     margin: 5% auto;
+    flex-wrap: wrap;
 }
 
 #food img {
-    width: 20%;
+    width: 33.3%;
+    filter: brightness(75%);
+}
+
+#food img:hover {
+    filter: brightness(100%);
 }
 
 #header-img {
@@ -23,10 +29,4 @@
 
 #stage {
     width: 50%;
-}
-
-@media screen and (max-width: 600px) {
-    #food img {
-        display: none;
-    }
 }
