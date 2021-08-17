@@ -13,6 +13,7 @@
 #food img {
     width: 33.3%;
     filter: brightness(75%);
+    object-fit: cover;
 }
 
 #food img:hover {
