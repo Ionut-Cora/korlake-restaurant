@@ -33,6 +33,6 @@
 
 @media screen and (max-width: 600px) {
     #food img {
-        width: 50%;
+        width: 100%;
     }
 }
