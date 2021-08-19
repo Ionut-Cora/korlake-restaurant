@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/korlake-restaurant/static/css/main.416fdca0.chunk.css",
-    "main.js": "/korlake-restaurant/static/js/main.93a1a934.chunk.js",
-    "main.js.map": "/korlake-restaurant/static/js/main.93a1a934.chunk.js.map",
+    "main.css": "/korlake-restaurant/static/css/main.3f9f4106.chunk.css",
+    "main.js": "/korlake-restaurant/static/js/main.4af8acc6.chunk.js",
+    "main.js.map": "/korlake-restaurant/static/js/main.4af8acc6.chunk.js.map",
     "runtime-main.js": "/korlake-restaurant/static/js/runtime-main.1c0a118f.js",
     "runtime-main.js.map": "/korlake-restaurant/static/js/runtime-main.1c0a118f.js.map",
     "static/css/2.658248ec.chunk.css": "/korlake-restaurant/static/css/2.658248ec.chunk.css",
@@ -12,9 +12,19 @@
     "static/js/3.10e82ff6.chunk.js.map": "/korlake-restaurant/static/js/3.10e82ff6.chunk.js.map",
     "index.html": "/korlake-restaurant/index.html",
     "static/css/2.658248ec.chunk.css.map": "/korlake-restaurant/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.416fdca0.chunk.css.map": "/korlake-restaurant/static/css/main.416fdca0.chunk.css.map",
+    "static/css/main.3f9f4106.chunk.css.map": "/korlake-restaurant/static/css/main.3f9f4106.chunk.css.map",
     "static/js/2.89417b20.chunk.js.LICENSE.txt": "/korlake-restaurant/static/js/2.89417b20.chunk.js.LICENSE.txt",
     "static/media/Menu.css": "/korlake-restaurant/static/media/lunch-background.d643cefd.jpg",
+    "static/media/f1.0727ef0e.jpg": "/korlake-restaurant/static/media/f1.0727ef0e.jpg",
+    "static/media/f10.c124bddb.jpg": "/korlake-restaurant/static/media/f10.c124bddb.jpg",
+    "static/media/f2.f52cc6c1.jpg": "/korlake-restaurant/static/media/f2.f52cc6c1.jpg",
+    "static/media/f3.7977d3ba.jpg": "/korlake-restaurant/static/media/f3.7977d3ba.jpg",
+    "static/media/f4.9c6dbcfd.jpg": "/korlake-restaurant/static/media/f4.9c6dbcfd.jpg",
+    "static/media/f5.ca01f4aa.jpg": "/korlake-restaurant/static/media/f5.ca01f4aa.jpg",
+    "static/media/f6.22942b6f.jpg": "/korlake-restaurant/static/media/f6.22942b6f.jpg",
+    "static/media/f7.b4a188be.jpg": "/korlake-restaurant/static/media/f7.b4a188be.jpg",
+    "static/media/f8.6cb4c8c4.jpg": "/korlake-restaurant/static/media/f8.6cb4c8c4.jpg",
+    "static/media/f9.d6ec25dc.jpg": "/korlake-restaurant/static/media/f9.d6ec25dc.jpg",
     "static/media/g1.fa53906b.jpg": "/korlake-restaurant/static/media/g1.fa53906b.jpg",
     "static/media/g10.647ba775.jpg": "/korlake-restaurant/static/media/g10.647ba775.jpg",
     "static/media/g11.0b1d0065.jpg": "/korlake-restaurant/static/media/g11.0b1d0065.jpg",
@@ -36,7 +46,7 @@
     "static/js/runtime-main.1c0a118f.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.89417b20.chunk.js",
-    "static/css/main.416fdca0.chunk.css",
-    "static/js/main.93a1a934.chunk.js"
+    "static/css/main.3f9f4106.chunk.css",
+    "static/js/main.4af8acc6.chunk.js"
   ]
 }
