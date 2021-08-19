@@ -3,6 +3,16 @@ import Layout from '../../components/Layout/Layout';
 import './Home.css';
 import { Link } from 'react-router-dom';
 import Second from '../../utils/img/second.jpg';
+import f1 from '../../utils/img/f1.jpg';
+import f2 from '../../utils/img/f2.jpg';
+import f3 from '../../utils/img/f3.jpg';
+import f4 from '../../utils/img/f4.jpg';
+import f5 from '../../utils/img/f5.jpg';
+import f6 from '../../utils/img/f6.jpg';
+import f7 from '../../utils/img/f7.jpg';
+import f8 from '../../utils/img/f8.jpg';
+import f9 from '../../utils/img/f9.jpg';
+import f10 from '../../utils/img/f10.jpg';
 
 function Home() {
     return(
@@ -101,6 +111,51 @@ function Home() {
                             </div>
                         </div>
                     </div>
+                </div>
+
+                <div id="food-section">
+                        <div id="food-card">
+                            <div className="food-div">
+                                <img src={f1} alt="salmon and poached egg bruschetta" />
+                                <p>Salmon and Poached Egg Bruschetta</p>
+                            </div>
+                            <div className="food-div">
+                                <img src={f2} alt="pumpkin soup" />
+                                <p>Pumpkin Soup</p>
+                            </div>
+                            <div className="food-div">
+                                <img src={f3} alt="Pork, baked potatoes, eggs and vegetables" />
+                                <p>Pork, Baked Potatoes, Eggs and Vegetables</p>
+                            </div>
+                            <div className="food-div">
+                                <img src={f4} alt="tomato salad" />
+                                <p>Tomato Salad</p>
+                            </div>
+                            <div className="food-div">
+                                <img src={f5} alt="Salmon Curry" />
+                                <p>Salmon Curry</p>
+                            </div>
+                            <div className="food-div">
+                                <img src={f6} alt="Salmon with courgette pasta" />
+                                <p>Salmon with Courgette Pasta</p>
+                            </div>
+                            <div className="food-div">
+                                <img src={f7} alt="Beef steak with veggies" />
+                                <p>Beef Steak with Veggies</p>
+                            </div>
+                            <div className="food-div">
+                                <img src={f8} alt="Pasta carbonara with broccoli" />
+                                <p>Pasta Carbonara with Broccoli</p>
+                            </div>
+                            <div className="food-div">
+                                <img src={f9} alt="Tiramisu" />
+                                <p>Tiramisu</p>
+                            </div>
+                            <div className="food-div">
+                                <img src={f10} alt="Chocolate Lava Cake" />
+                                <p>Chocolate Lava Cake</p>
+                            </div>
+                        </div>
                 </div>
 
             </Layout>

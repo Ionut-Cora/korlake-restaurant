@@ -19,7 +19,6 @@
     background-color: #FFCD58;
     width: 150px;
     height: 40px;
-    border-radius: 5px;
     border: 0;
     font-weight: bold;
     text-transform: uppercase;
@@ -80,6 +79,36 @@
     text-decoration-thickness: 1px;
 }
 
+/* FOOD SECTION */
+
+#food-card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.food-div {
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-div p {
+    position: absolute;
+    width: 80%;
+    color: #fff;
+    top: 10%;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.food-div img {
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+}
+
 /* MEDIA */
 
 @media screen and (max-width: 768px) {
@@ -93,5 +122,9 @@
 
     #head > div {
         padding-top: 50%;
+    }
+
+    .food-div {
+        width: 100%;
     }
 }
