@@ -35,6 +35,7 @@
 
     #food img {
         width: 100%;
-        height: auto;
+        size: cover;
+        position: center;
     }
 }
