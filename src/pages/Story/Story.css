@@ -32,7 +32,9 @@
 }
 
 @media screen and (max-width: 600px) {
+
     #food img {
         width: 100%;
+        height: auto;
     }
 }
