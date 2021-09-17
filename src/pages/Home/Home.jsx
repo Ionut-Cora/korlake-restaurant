@@ -13,6 +13,7 @@ import f7 from '../../utils/img/f7.jpg';
 import f8 from '../../utils/img/f8.jpg';
 import f9 from '../../utils/img/f9.jpg';
 import f10 from '../../utils/img/f10.jpg';
+import VideoFood from '../../utils/video/video-food.mp4';
 
 function Home() {
     return(
@@ -20,6 +21,10 @@ function Home() {
             <Layout>
                 <div id="head">
                     <div>
+
+                        <video muted loop autoPlay>
+                            <source src={VideoFood} type="video/mp4" />
+                        </video>
 
                         <h2 className="text-white">Welcome to</h2>
                         <h1 className="text-white">Korlake Restaurant</h1>

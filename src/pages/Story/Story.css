@@ -3,10 +3,15 @@
     padding: 5%;
 }
 
+#allstory h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
 #food {
     display: flex;
     justify-content: space-around;
-    margin: 5% auto;
+    margin-top: 4%;
     flex-wrap: wrap;
 }
 
@@ -29,9 +34,19 @@
 
 #stage {
     width: 50%;
+    margin: 5rem 0;
 }
 
 @media screen and (max-width: 600px) {
+
+    #stage {
+        width: 100%;
+        margin: 3rem 0;
+    }
+
+    #food {
+        margin-top: 3rem;
+    }
 
     #food img {
         width: 100%;

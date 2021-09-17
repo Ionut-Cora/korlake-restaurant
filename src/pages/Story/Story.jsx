@@ -36,7 +36,7 @@ function Story() {
                             If it's not perfect and just the way you ordered it, 
                             we won't send it out.
                         </p>
-                        <img src={Stage} className="m-5" id="stage" alt="stage"/>
+                        <img src={Stage} id="stage" alt="stage"/>
                         <p>
                             Our menu offers something for everybody, 
                             from light passage of plates of mixed greens and 
@@ -50,7 +50,7 @@ function Story() {
                             easygoing social event of companions or a sentimental night out on the town.
                         </p>
                     </div>
-                    <div className="container" id="food">
+                    <div id="food">
                         <img src={g1} alt="beef"/>
                         <img src={g2} alt="chocolate"/>
                         <img src={g3} alt="veggies"/>

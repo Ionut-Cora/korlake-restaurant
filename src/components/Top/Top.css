@@ -30,6 +30,10 @@
     font-size: 1.3rem;
 }
 
+#top .hov:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 600px) {
     #top {
         width: 95%;

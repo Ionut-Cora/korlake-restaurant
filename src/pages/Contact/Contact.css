@@ -11,3 +11,11 @@
 #allcontacts ion-icon {
     font-size: 2rem;
 }
+
+#allcontacts p {
+    font-size: 1.3rem;
+}
+
+#allcontacts .hov:hover {
+    cursor: pointer;
+}
