@@ -150,7 +150,20 @@
     }
 
     #head > div {
-        padding-top: 50%;
+        padding-top: 15%;
+    }
+
+    #head video {
+        display: none;
+    }
+
+    #head {
+        background-image: -webkit-gradinet(linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6))), url(home.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(home.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        min-width: 100wh;
     }
 
     #second-section {
@@ -164,5 +177,11 @@
 
     .food-div {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #head > div {
+        padding-top: 50%;
     }
 }
