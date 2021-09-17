@@ -22,10 +22,18 @@
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 #top-button:hover {
     background-color: #ffc233;
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+#top-button:active {
+    transition: all 0.5s;
+    transform: scale(1);
 }
 
 #head video {
@@ -44,7 +52,7 @@
 
 #second-section {
     align-items: center;
-    margin: 5% auto;
+    margin-bottom: 2.3rem;
 }
 
 #second-section p {
@@ -63,6 +71,16 @@
 #story-button h3 {
     color: black;
     font-size: 1.5rem;
+}
+
+#story-button h3:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+#story-button h3:active {
+    transition: all 0.5s;
+    transform: scale(1);
 }
 
 /* MENU-SECTION */
@@ -88,6 +106,16 @@
 #menu-button {
     text-decoration-color: #ffffff;
     text-decoration-thickness: 1px;
+}
+
+#menu-button h3:hover {
+    transition: all 0.5s;
+    transform: scale(1.1);
+}
+
+#menu-button h3:active {
+    transition: all 0.5s;
+    transform: scale(1);
 }
 
 /* FOOD SECTION */
@@ -177,6 +205,10 @@
 
     .food-div {
         width: 100%;
+    }
+
+    .food-div p {
+        font-size: 2rem;
     }
 }
 
