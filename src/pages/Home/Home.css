@@ -21,19 +21,57 @@
     border: 0;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 #top-button:hover {
     background-color: #ffc233;
-    transition: all 0.5s;
-    transform: scale(1.1);
 }
 
 #top-button:active {
     transition: all 0.5s;
-    transform: scale(1);
+    transform: scale(0.9);
+}
+
+#top-reservation-button {
+    background-color: transparent;
+    border: 1px solid #FFCD58;
+    width: 150px;
+    height: 40px;
+    color: #FFCD58;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+#top-reservation-button:hover {
+    background-color: #ffc233;
+    color: black;
+}
+
+#top-reservation-button:active {
+    transition: all 0.5s;
+    transform: scale(0.9);
+}
+
+#head h2,
+#head h1,
+#top-button,
+#top-reservation-button {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    -o-animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 #head video {
@@ -126,7 +164,7 @@
 }
 
 .food-div {
-    width: 50%;
+    width: 25%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -138,7 +176,7 @@
     width: 80%;
     color: #fff;
     top: 10%;
-    font-size: 4rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -204,7 +242,7 @@
     }
 
     .food-div {
-        width: 100%;
+        width: 50%;
     }
 
     .food-div p {

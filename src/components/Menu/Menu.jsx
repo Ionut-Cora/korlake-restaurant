@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Layout from '../../components/Layout/Layout';
 import './Menu.css';
 import Breakfastproduct from '../Products/Breakfastproduct';
@@ -110,8 +111,12 @@ function Menu() {
                                 ))}
                             </div>
                         </div>
-                    </div>
+                        <Link to='/contact'>
+                            <button id="menu-reservation-btn">Reserve table</button>
+                        </Link>
+                    </div>                   
                 </div>
+
 
             </Layout>
         </div>

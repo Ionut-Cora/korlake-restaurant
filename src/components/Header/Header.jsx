@@ -11,7 +11,7 @@ function Header() {
                     <Link id="logo" to="/">Korlake</Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="mr-auto">
+                        <Nav className="ml-auto">
                             <Link className="nav-link" id="home-link" to="/">Home</Link>
                             <Link className="nav-link" id="menu-link" to="/menu">Menu</Link>
                             <Link className="nav-link" id="story-link" to="/story">Story</Link>

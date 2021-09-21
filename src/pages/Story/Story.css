@@ -8,6 +8,11 @@
     margin-bottom: 2rem;
 }
 
+#allstory h4 {
+    font-size: 2rem;
+    margin: 5rem;
+}
+
 #food {
     display: flex;
     justify-content: space-around;

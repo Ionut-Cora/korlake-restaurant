@@ -50,6 +50,7 @@ function Story() {
                             easygoing social event of companions or a sentimental night out on the town.
                         </p>
                     </div>
+                    <h4>Some pictures from our restaurant</h4>
                     <div id="food">
                         <img src={g1} alt="beef"/>
                         <img src={g2} alt="chocolate"/>
