@@ -17,7 +17,7 @@ function Home() {
                 <div id="head">
                     <div>
 
-                        <video muted loop autoPlay>
+                        <video muted loop autoPlay id="video">
                             <source src={VideoFood} type="video/mp4" />
                         </video>
 
