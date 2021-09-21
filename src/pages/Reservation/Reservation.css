@@ -73,6 +73,16 @@ form textarea:focus {
     font-size: 1.3rem;
 }
 
+@media screen and (max-width: 600px) {
+    #reservation-page {
+        width: 90%;
+    }
+
+    #submit-btn {
+        width: 30%;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .group {
         display: block;

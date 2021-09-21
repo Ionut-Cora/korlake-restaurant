@@ -115,7 +115,6 @@ class Reservation extends React.Component {
 
     render() {
         return(
-            <div>
                     <div id="reservation-page">
                         <form id="form" onSubmit={(event) => this.handleSubmit(event)}>
                             <div className="group">
@@ -154,7 +153,6 @@ class Reservation extends React.Component {
                         </form>
                         <div id="results"></div>
                     </div>
-            </div>
         )
     }
 }
