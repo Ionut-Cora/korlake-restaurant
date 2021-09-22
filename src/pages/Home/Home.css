@@ -64,7 +64,7 @@
 #top-reservation-button {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
-    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
 }
 
 @keyframes fadeInAnimation {
