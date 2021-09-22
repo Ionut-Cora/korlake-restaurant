@@ -8,39 +8,13 @@ import f1 from '../../utils/img/f1.jpg';
 import f2 from '../../utils/img/f2.jpg';
 import f3 from '../../utils/img/f3.jpg';
 import f9 from '../../utils/img/f9.jpg';
-import VideoFood from '../../utils/video/video-food.mp4';
 
-class Home extends React.Component {
-    state = {
-        isLoaded: false
-    }
-
-    componentDidMount() {
-        this.setState({isLoaded: true});
-
-        const video = document.querySelectorAll('video');
-
-        window.addEventListener('resize', () => {
-            if (window.matchMedia('(min-width: 1024px)').matches) {
-                console.log('mai mare de 1024');
-                video.forEach(data => data.play())
-                
-            } else {
-                console.log('mai mic de 1024');
-                video.forEach(data => data.pause())
-            }
-        })
-    }
-
-    render() {
+function Home() {
         return(
             <div>
                 <Layout>
                     <div id="head">
                         <div>
-                            <video muted loop autoPlay id="video">
-                                <source src={VideoFood} type="video/mp4" />
-                            </video>
     
                             <h2 className="text-white">Welcome to</h2>
                             <h1 className="text-white">Korlake Restaurant</h1>
@@ -50,6 +24,7 @@ class Home extends React.Component {
                             <Link to='/contact' id="reservation-button">
                                 <button id="top-reservation-button">Reserve table</button>
                             </Link>
+                            
                         </div>    
                     </div>
     
@@ -162,7 +137,6 @@ class Home extends React.Component {
                 </Layout>
             </div>
         )
-    }
 }
 
 export default Home;
