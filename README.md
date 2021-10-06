@@ -1,7 +1,14 @@
-## https://ionut-cora.github.io/korlake-restaurant/
+# Korlake Restaurant
 
-# korlake-restaurant
-# korlake-restaurant.github.io
+## For this website I used:
+- React
+- CSS
+- Bootstrap
+
+## Website description
+The website contains several pages and components, where the customer can find the restaurant story, menus, dishes and pictures. Also the customer can make an online reservation by using the form from the contact & reservation page. This page contain also the restaurant address and contact details.
+
+## View live website: https://ionut-cora.github.io/korlake-restaurant/
 
 # Getting Started with Create React App
 
