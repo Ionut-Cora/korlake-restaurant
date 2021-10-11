@@ -45,7 +45,7 @@ function Home() {
                             </p>
     
                             <Link to="/story" id="story-button">
-                                <h3>View Our Story &#8594;</h3>
+                                <button>View Our Story</button>
                             </Link>
     
                         </div>
@@ -101,10 +101,8 @@ function Home() {
                                 </div>
     
                                 <div className="col-md-6 col-sm-12 p-4"> 
-                                    <Link to='/menu' id="menu-button">
-                                        <h3>
-                                            View Our Full Menu &#8594;
-                                        </h3>
+                                    <Link to='/menu'>
+                                        <button>View Our Full Menu</button>
                                     </Link>
                                 </div>
                             </div>

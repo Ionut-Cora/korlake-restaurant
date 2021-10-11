@@ -47,12 +47,14 @@ form textarea:focus {
 }
 
 #submit-btn {
-    width: 25%;
+    /* width: 25%; */
     margin: 1.5rem auto;
     font-weight: bold;
     text-transform: uppercase;
     background-color: #A4C05B;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 1.125rem;
+    padding: 17px 20px 16px;
 }
 
 #submit-btn:hover {
@@ -78,9 +80,9 @@ form textarea:focus {
         width: 90%;
     }
 
-    #submit-btn {
+    /* #submit-btn {
         width: 30%;
-    }
+    } */
 }
 
 @media screen and (max-width: 450px) {

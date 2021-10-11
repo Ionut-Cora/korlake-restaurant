@@ -18,11 +18,10 @@
 
 #top-button {
     background-color: #FFCD58;
-    width: 150px;
-    height: 40px;
     border: 0;
-    font-weight: bold;
+    font-size: 1.125rem;
     text-transform: uppercase;
+    padding: 17px 60px 16px;
     margin: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
@@ -39,11 +38,10 @@
 #top-reservation-button {
     background-color: transparent;
     border: 1px solid #FFCD58;
-    width: 150px;
-    height: 40px;
     color: #FFCD58;
-    font-weight: bold;
+    font-size: 1.125rem;
     text-transform: uppercase;
+    padding: 17px 20px 16px;
     margin: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
@@ -96,19 +94,18 @@
     text-decoration-thickness: 1px;
 }
 
-#story-button h3 {
-    color: black;
-    font-size: 1.5rem;
+#story-button button {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    padding: 17px 40px 16px;
+    margin: 20px;
 }
 
-#story-button h3:hover {
-    transition: all 0.5s;
-    transform: scale(1.1);
-}
-
-#story-button h3:active {
-    transition: all 0.5s;
-    transform: scale(1);
+#story-button button:hover {
+    background-color: rgb(24, 24, 24);
 }
 
 /* MENU-SECTION */
@@ -131,19 +128,18 @@
     color: #ffffff;
 }
 
-#menu-button {
-    text-decoration-color: #ffffff;
-    text-decoration-thickness: 1px;
+#menu-section button {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    padding: 17px 20px 16px;
+    margin: 20px;
 }
 
-#menu-button h3:hover {
-    transition: all 0.5s;
-    transform: scale(1.1);
-}
-
-#menu-button h3:active {
-    transition: all 0.5s;
-    transform: scale(1);
+#menu-section button:hover {
+    background-color: rgb(230, 230, 230);
 }
 
 /* FOOD SECTION */
@@ -188,12 +184,12 @@
         font-size: 6rem;
     }
 
-    #top-button {
+    /* #top-button {
         width: 250px;
         height: 70px;
         margin-top: 40px;
         font-size: 1.7rem;
-    }
+    } */
 }
 
 @media screen and (max-width: 1024px) {
