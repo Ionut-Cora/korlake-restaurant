@@ -1,6 +1,7 @@
 
 #allstory h1 {
-    padding: 5%;
+    padding: 3rem 0;
+    font-size: 5rem;
 }
 
 #allstory h3 {
@@ -43,6 +44,10 @@
 }
 
 @media screen and (max-width: 600px) {
+
+    #allstory h1 {
+        font-size: 3.5rem;
+    }
 
     #stage {
         width: 100%;

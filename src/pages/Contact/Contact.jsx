@@ -10,7 +10,7 @@ function Contact() {
         <div>
             <Layout>
                 <div id="contact-page">
-                    <h1 className="m-5">Contact &amp; Reservations</h1>
+                    <h1>Contact &amp; Reservations</h1>
                     <div id="contact-reservations">
                         <div id="reservations-div">
                             <Reservation />

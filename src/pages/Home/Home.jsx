@@ -55,7 +55,7 @@ function Home() {
                         <div className="container">
                             <h2 className="p-5">Some of Our Favorites</h2>
     
-                            <div className="d-md-flex d-sm-block justify-content-around p-5">
+                            <div className="dish-card d-md-flex d-sm-block justify-content-around">
                                 <div className="col-md-6 col-sm-12 p-4">
                                     <h3>English Breakfast</h3>
                                     <p>
@@ -73,7 +73,7 @@ function Home() {
                                 </div>
                             </div>
     
-                            <div className="d-md-flex d-sm-block justify-content-around p-5">
+                            <div className="dish-card d-md-flex d-sm-block justify-content-around">
                                 <div className="col-md-6 col-sm-12 p-4">
                                     <h3>Roasty Trout with vegetables</h3>
                                     <p>
@@ -91,7 +91,7 @@ function Home() {
                                 </div>
                             </div>
     
-                            <div className="d-md-flex d-sm-block justify-content-around p-5">
+                            <div className="dish-card d-md-flex d-sm-block justify-content-around">
                                 <div className="col-md-6 col-sm-12 p-4">
                                     <h3>Warm Chocolate Fudge Cake</h3>
                                     <p>

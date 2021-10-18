@@ -1,13 +1,18 @@
 
+#head-card {
+    background-color: #FFCD58;
+}
+
 #head-title {
     background-color: #262626;
     padding-top: 1%;
     padding-bottom: 1%;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 0%);
 }
 
 #head-title h1 {
     color: white;
-    font-size: 3rem;
+    font-size: 5rem;
     padding: 3rem 0;
 }
 
@@ -77,4 +82,10 @@
 #menu-reservation-btn:active {
     transition: all 0.5s;
     transform: scale(0.9);
+}
+
+@media screen and (max-width: 600px) {
+    #head-title h1 {
+        font-size: 3.5rem;
+    }
 }

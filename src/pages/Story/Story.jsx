@@ -20,7 +20,7 @@ function Story() {
         <div>
             <Layout>
                 <div id="allstory">
-                    <h1 className="m-5">Story</h1>
+                    <h1>Story</h1>
                     <h3>Quality food, great times</h3>
                     <div className="container" id="paragraphs">
                         <p>

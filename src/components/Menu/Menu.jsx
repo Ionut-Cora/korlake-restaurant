@@ -36,8 +36,10 @@ function Menu() {
         <div>
             <Layout>
 
-                <div id="head-title">
-                    <h1>Menu</h1>
+                <div id="head-card">
+                    <div id="head-title">
+                        <h1>Menu</h1>
+                    </div>
                 </div>
 
                 <div id="background-menu-title">

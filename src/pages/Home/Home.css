@@ -114,6 +114,10 @@
     background-color: #000;
 }
 
+#menu-section .dish-card {
+    padding: 3rem;
+}
+
 #menu-section h2,
 #menu-section h3,
 #menu-section p {
@@ -226,5 +230,9 @@
 @media screen and (max-width: 600px) {
     #head > div {
         padding-top: 50%;
+    }
+
+    #menu-section .dish-card {
+        padding: 0;
     }
 }

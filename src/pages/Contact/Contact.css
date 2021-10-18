@@ -1,4 +1,9 @@
 
+#contact-page h1 {
+    font-size: 5rem;
+    padding: 3rem 0;
+}
+
 #contact-page {
     width: 80%;
     margin: auto;
@@ -11,6 +16,7 @@
 
 #allcontacts {
     width: 50%;
+    padding: 5rem 0;
 }
 
 #allcontacts h1 {
@@ -87,6 +93,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    #contact-page h1 {
+        font-size: 3.5rem;
+    }
+
     #reservations-div {
         padding: 0;
     }

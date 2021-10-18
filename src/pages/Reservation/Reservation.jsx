@@ -116,6 +116,7 @@ class Reservation extends React.Component {
     render() {
         return(
                     <div id="reservation-page">
+                        <h2>Make a reservation</h2>
                         <form id="form" onSubmit={(event) => this.handleSubmit(event)}>
                             <div className="group">
                                 <div className="mini-group">
