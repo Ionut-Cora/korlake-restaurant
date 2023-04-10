@@ -47,7 +47,7 @@ function Home() {
                                     </p>
             
                                     <Link to="/story" id="story-button">
-                                        <button className='btn btn-dark btn-lg text-capitalize'>View our story</button>
+                                        <button className='btn btn-dark btn-lg text-capitalize shadow'>View our story</button>
                                     </Link>
             
                                 </div>

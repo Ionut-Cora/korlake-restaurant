@@ -16,7 +16,7 @@ function Reviews() {
                 <div id="reviews">
                     <Row xs={1} md={2} className="g-4">
                         <Col className="mb-4">
-                            <Card className="h-100">
+                            <Card className="h-100 shadow">
                                 <Card.Body>
                                     <div className="p-4">
                                         <Card.Text>
@@ -31,7 +31,7 @@ function Reviews() {
                             </Card>
                         </Col>
                         <Col className="mb-4">
-                            <Card className="h-100">
+                            <Card className="h-100 shadow">
                                 <Card.Body>
                                     <div className="p-4">
                                         <Card.Text>
@@ -46,7 +46,7 @@ function Reviews() {
                             </Card>
                         </Col>
                         <Col className="mb-4">
-                            <Card className="h-100">
+                            <Card className="h-100 shadow">
                                 <Card.Body>
                                     <div className="p-4">
                                         <Card.Text>
@@ -61,7 +61,7 @@ function Reviews() {
                             </Card>
                         </Col>
                         <Col className="mb-4">
-                            <Card className="h-100">
+                            <Card className="h-100 shadow">
                                 <Card.Body>
                                     <div className="p-4">
                                         <Card.Text>
