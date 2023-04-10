@@ -4,56 +4,10 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(home.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
-    min-width: 100wh;
-}
-
-#head h2 {
-    padding-top: 15%;
 }
 
 #head h1 {
     font-size: 5rem;
-}
-
-#top-button {
-    background-color: #FFCD58;
-    border: 0;
-    font-size: 1.125rem;
-    text-transform: uppercase;
-    padding: 17px 60px 16px;
-    margin: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
-
-#top-button:hover {
-    background-color: #ffc233;
-}
-
-#top-button:active {
-    transition: all 0.5s;
-    transform: scale(0.9);
-}
-
-#top-reservation-button {
-    background-color: transparent;
-    border: 1px solid #FFCD58;
-    color: #FFCD58;
-    font-size: 1.125rem;
-    text-transform: uppercase;
-    padding: 17px 20px 16px;
-    margin: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
-
-#top-reservation-button:hover {
-    background-color: #ffc233;
-    color: black;
-}
-
-#top-reservation-button:active {
-    transition: all 0.5s;
-    transform: scale(0.9);
 }
 
 #head h2,
@@ -180,33 +134,21 @@
 
 @media screen and (min-width: 2500px) {
     #head h2 {
-        padding-top: 17%;
         font-size: 4rem;
     }
 
     #head h1 {
         font-size: 6rem;
     }
-
-    /* #top-button {
-        width: 250px;
-        height: 70px;
-        margin-top: 40px;
-        font-size: 1.7rem;
-    } */
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
     #head h1 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 
     #head h2 {
         font-size: 2rem;
-    }
-
-    #head > div {
-        padding-top: 15%;
     }
 
     #second-section {
@@ -227,9 +169,14 @@
     }
 }
 
-@media screen and (max-width: 600px) {
-    #head > div {
-        padding-top: 50%;
+@media screen and (max-width: 576px) {
+
+    #head h1 {
+        font-size: 2.5rem;
+    }
+
+    #head h2 {
+        font-size: 1.5rem;
     }
 
     #menu-section .dish-card {

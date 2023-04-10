@@ -13,18 +13,18 @@ function Home() {
         return(
             <div>
                 <Layout>
-                    <div id="head">
-                        <div>
-    
-                            <h2 className="text-white">Welcome to</h2>
-                            <h1 className="text-white">Korlake Restaurant</h1>
-                            <Link to='/menu' id="menu-button">
-                                <button id="top-button">Menu</button>
-                            </Link>
-                            <Link to='/contact' id="reservation-button">
-                                <button id="top-reservation-button">Reserve table</button>
-                            </Link>
-                            
+                    <div className='h-100 d-flex align-items-center min-vh-100' id="head">
+                        <div className='container'> 
+                            <h2 className="text-white text-capitalize">Welcome to</h2>
+                            <h1 className="text-white text-capitalize">Korlake restaurant</h1>
+                            <div className='mt-4'>
+                                <Link to='/menu' id="menu-button">
+                                    <button type='btn' className='btn btn-warning btn-lg text-uppercase px-5 mx-2 my-2 my-sm-0' id="top-button">Menu</button>
+                                </Link>
+                                <Link to='/contact' id="reservation-button">
+                                    <button type='btn' className='btn btn-outline-warning btn-lg text-uppercase mx-2 my-2 my-sm-0' id="top-reservation-button">Reserve table</button>
+                                </Link>
+                            </div>                          
                         </div>    
                     </div>
     
