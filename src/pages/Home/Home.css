@@ -50,32 +50,12 @@
 
 /* FOOD SECTION */
 
-#food-card {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.food-div {
-    width: 25%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .food-div p {
-    position: absolute;
-    width: 80%;
-    color: #fff;
-    top: 10%;
-    font-size: 2.5rem;
-    text-align: center;
+    font-size: 2.3rem;
 }
 
 .food-div img {
-    width: 100%;
-    height: auto;
-    filter: brightness(50%);
+    filter: brightness(40%);
 }
 
 /* MEDIA */
@@ -88,6 +68,16 @@
     #head h1 {
         font-size: 6rem;
     }
+
+    .food-div p {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .food-div p {
+        font-size: 1.9rem;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -99,12 +89,8 @@
         font-size: 2rem;
     }
 
-    .food-div {
-        width: 50%;
-    }
-
     .food-div p {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 }
 
@@ -120,5 +106,9 @@
 
     #menu-section .dish-card {
         padding: 0;
+    }
+
+    .food-div p {
+        font-size: 2.5rem;
     }
 }

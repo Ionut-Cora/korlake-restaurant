@@ -115,21 +115,31 @@ function Home() {
     
                     <div id="food-section">
                             <div id="food-card">
-                                <div className="food-div">
-                                    <img src={f1} alt="salmon and poached egg bruschetta" />
-                                    <p>Salmon and Poached Egg Bruschetta</p>
-                                </div>
-                                <div className="food-div">
-                                    <img src={f2} alt="pumpkin soup" />
-                                    <p>Pumpkin Soup</p>
-                                </div>
-                                <div className="food-div">
-                                    <img src={f3} alt="Pork, baked potatoes, eggs and vegetables" />
-                                    <p>Pork, Baked Potatoes, Eggs and Vegetables</p>
-                                </div>
-                                <div className="food-div">
-                                    <img src={f9} alt="Tiramisu" />
-                                    <p>Tiramisu</p>
+                                <div className="row m-0">
+                                    <div className="food-div col-12 col-sm-6 col-lg-3 p-0 d-flex align-items-center justify-content-center">
+                                        <img className='w-100' src={f1} alt="salmon and poached egg bruschetta" />
+                                        <p className='text-uppercase position-absolute w-75 text-light'>
+                                            <strong>Poached egg bruschetta</strong>
+                                        </p>
+                                    </div>
+                                    <div className="food-div col-12 col-sm-6 col-lg-3 p-0 d-flex align-items-center justify-content-center">
+                                        <img className='w-100' src={f2} alt="pumpkin soup" />
+                                        <p className='text-uppercase position-absolute w-75 text-light'>
+                                            <strong>Pumpkin soup</strong>
+                                        </p>
+                                    </div>
+                                    <div className="food-div col-12 col-sm-6 col-lg-3 p-0 d-flex align-items-center justify-content-center">
+                                        <img className='w-100' src={f3} alt="Pork, baked potatoes, eggs and vegetables" />
+                                        <p className='text-uppercase position-absolute w-75 text-light'>
+                                            <strong>Pork and vegetables</strong>
+                                        </p>
+                                    </div>
+                                    <div className="food-div col-12 col-sm-6 col-lg-3 p-0 d-flex align-items-center justify-content-center">
+                                        <img className='w-100' src={f9} alt="Tiramisu" />
+                                        <p className='text-uppercase position-absolute w-75 text-light'>
+                                            <strong>Tiramisu</strong>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                     </div>
