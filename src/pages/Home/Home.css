@@ -30,36 +30,12 @@
 
 /* SECOND_SECTION */
 
-#second-section {
-    align-items: center;
-    margin: 2.3rem auto;
-}
-
 #second-section p {
     font-size: 1.3rem;
 }
 
 #second-img img {
-    width: 50%;
-}
-
-#story-button {
-    text-decoration-color: black;
-    text-decoration-thickness: 1px;
-}
-
-#story-button button {
-    background-color: #000;
-    border: none;
-    color: #fff;
-    font-size: 1.125rem;
-    text-transform: uppercase;
-    padding: 17px 40px 16px;
-    margin: 20px;
-}
-
-#story-button button:hover {
-    background-color: rgb(24, 24, 24);
+    width: 100%;
 }
 
 /* MENU-SECTION */
@@ -149,15 +125,6 @@
 
     #head h2 {
         font-size: 2rem;
-    }
-
-    #second-section {
-        margin-top: 2rem;
-        margin-bottom: 4rem;
-    }
-
-    #second-img img {
-        width: 100%;
     }
 
     .food-div {

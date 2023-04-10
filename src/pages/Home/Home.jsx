@@ -3,7 +3,7 @@ import Layout from '../../components/Layout/Layout';
 import Reviews from '../../components/Reviews/Reviews';
 import './Home.css';
 import { Link } from 'react-router-dom';
-import Second from '../../utils/img/second.jpg';
+import Image from '../../utils/img/about-image.jpg';
 import f1 from '../../utils/img/f1.jpg';
 import f2 from '../../utils/img/f2.jpg';
 import f3 from '../../utils/img/f3.jpg';
@@ -28,26 +28,30 @@ function Home() {
                         </div>    
                     </div>
     
-                    <div className="container d-md-flex d-sm-block" id="second-section">
-                        <div className="col-md-6 col-sm-12" id="second-img">
-                            <img src={Second} alt="second"/>
-                        </div>
-                        <div className="col-md-6 col-sm-12" id="second-section-patagraphs">
-                            <p className="m-5">
-                                Here at Korlake Restaurant we take pride in the 
-                                quality of the products used for each and every plate.
-                            </p>
-                            <p className="m-5">
-                                We will probably give excellent client benefit, 
-                                the best quality fixings, and a noteworthy affair 
-                                whether it’s an uncommon occasion, easygoing social event 
-                                of companions or a sentimental night out on the town.
-                            </p>
-    
-                            <Link to="/story" id="story-button">
-                                <button>View Our Story</button>
-                            </Link>
-    
+                    <div className='py-5' id="second-section">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-12 col-lg-6 d-flex align-items-center" id="second-img">
+                                    <img src={Image} alt="about img"/>
+                                </div>
+                                <div className="col-12 col-lg-6" id="second-section-patagraphs">
+                                    <p className="m-5">
+                                        Here at Korlake Restaurant we take pride in the 
+                                        quality of the products used for each and every plate.
+                                    </p>
+                                    <p className="m-5">
+                                        We will probably give excellent client benefit, 
+                                        the best quality fixings, and a noteworthy affair 
+                                        whether it’s an uncommon occasion, easygoing social event 
+                                        of companions or a sentimental night out on the town.
+                                    </p>
+            
+                                    <Link to="/story" id="story-button">
+                                        <button className='btn btn-dark btn-lg text-capitalize'>View our story</button>
+                                    </Link>
+            
+                                </div>
+                            </div>
                         </div>
                     </div>
     
