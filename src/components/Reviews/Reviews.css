@@ -1,44 +1,8 @@
 
-#reviews-page {
-    padding: 2rem;
-}
-
 #reviews-page h2 {
     font-size: 2rem;
-    margin: 2rem;
-}
-
-#reviews-page h4 {
-    font-size: 1.50rem;
-    display: flex;
-    justify-content: flex-end;
 }
 
 #reviews-page p {
     font-size: 1.2rem;
-    margin-bottom: 0;
-}
-
-#reviews {
-    width: 80%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.review-post {
-    width: 50%;
-    padding: 1rem;
-}
-
-@media screen and (max-width: 1024px) {
-    #reviews {
-        width: 80%;
-        margin: auto;
-        display: block;
-    }
-
-    .review-post {
-        width: 100%;
-    }
 }
