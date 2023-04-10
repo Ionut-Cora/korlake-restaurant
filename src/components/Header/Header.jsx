@@ -6,6 +6,7 @@ import './Header.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
 
 function Header() {
     return(
@@ -19,7 +20,9 @@ function Header() {
                     <Nav.Link className='active text-uppercase' href="/">Home</Nav.Link>
                     <Nav.Link className='text-uppercase' href="#menu">Menu</Nav.Link>
                     <Nav.Link className='text-uppercase' href="#story">Story</Nav.Link>
-                    <Nav.Link className='text-uppercase' href="#contact">Contact</Nav.Link>
+                    <div className='mx-lg-2 my-2 my-lg-0'>
+                        <Button className='text-uppercase' variant='outline-dark' href="#contact">Contact us</Button>
+                    </div>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
