@@ -41,39 +41,11 @@
 /* MENU-SECTION */
 
 #menu-section {
-    background-color: #000;
-}
-
-#menu-section .dish-card {
-    padding: 3rem;
-}
-
-#menu-section h2,
-#menu-section h3,
-#menu-section p {
-    color: #ffffff;
+    background-color: rgb(33,37,41);
 }
 
 #menu-section p {
     font-size: 1.2rem;
-}
-
-#arrow-right {
-    color: #ffffff;
-}
-
-#menu-section button {
-    background-color: #fff;
-    border: none;
-    color: #000;
-    font-size: 1.125rem;
-    text-transform: uppercase;
-    padding: 17px 20px 16px;
-    margin: 20px;
-}
-
-#menu-section button:hover {
-    background-color: rgb(230, 230, 230);
 }
 
 /* FOOD SECTION */

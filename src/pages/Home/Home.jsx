@@ -55,9 +55,9 @@ function Home() {
                         </div>
                     </div>
     
-                    <div id="menu-section">
+                    <div className='text-light py-5' id="menu-section">
                         <div className="container">
-                            <h2 className="p-5">Some of Our Favorites</h2>
+                            <h2 className="mb-5">Some of Our Favorites</h2>
     
                             <div className="dish-card d-md-flex d-sm-block justify-content-around">
                                 <div className="col-md-6 col-sm-12 p-4">
@@ -104,9 +104,9 @@ function Home() {
                                     </p>
                                 </div>
     
-                                <div className="col-md-6 col-sm-12 p-4"> 
+                                <div className="col-md-6 col-sm-12 p-4 d-flex align-items-center justify-content-center"> 
                                     <Link to='/menu'>
-                                        <button>View Our Full Menu</button>
+                                        <button className='btn btn-light btn-lg'>View Our Full Menu</button>
                                     </Link>
                                 </div>
                             </div>
