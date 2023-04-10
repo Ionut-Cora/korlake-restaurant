@@ -3,7 +3,7 @@ import './Footer.css';
 
 function Footer() {
     return(
-        <div className="p-3" id="footer">
+        <div className="bg-warning p-3" id="footer">
             &copy; made by Ionut Cora, 2021-2023
         </div>
     )
