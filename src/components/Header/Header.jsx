@@ -6,9 +6,9 @@ import './Header.css';
 function Header() {
     return(
         <div id="navbar">
-            <Navbar id="nav" expand="lg">
+            <Navbar className='bg-warning fixed-top' id="nav" expand="lg">
                 <div className="d-flex container">
-                    <Link id="logo" to="/">Korlake</Link>
+                    <Link className="text-decoration-none" id="logo" to="/">Korlake</Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ml-auto">
