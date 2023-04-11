@@ -6,3 +6,7 @@
 #reviews-page p {
     font-size: 1.2rem;
 }
+
+#reviews-page img {
+    width: 15%;
+}

@@ -25,7 +25,7 @@ function Reviews() {
                                     </div>
                                 </Card.Body>
                                 <Card.Footer className="d-flex align-items-center">
-                                    <img src={Person1} className="img-fluid rounded-circle m-3 w-25" alt="customer img" />
+                                    <img src={Person1} className="img-fluid rounded-circle mx-3" alt="customer img" />
                                     <Card.Title>John Wayne</Card.Title>
                                 </Card.Footer>
                             </Card>
@@ -40,7 +40,7 @@ function Reviews() {
                                     </div>
                                 </Card.Body>
                                 <Card.Footer className="d-flex align-items-center">
-                                    <img src={Person2} className="img-fluid rounded-circle m-3 w-25" alt="customer img" />
+                                    <img src={Person2} className="img-fluid rounded-circle mx-3" alt="customer img" />
                                     <Card.Title>Ellie White</Card.Title>
                                 </Card.Footer>
                             </Card>
@@ -55,7 +55,7 @@ function Reviews() {
                                     </div>
                                 </Card.Body>
                                 <Card.Footer className="d-flex align-items-center">
-                                    <img src={Person3} className="img-fluid rounded-circle m-3 w-25" alt="customer img" />
+                                    <img src={Person3} className="img-fluid rounded-circle mx-3" alt="customer img" />
                                     <Card.Title>Michael Bourne</Card.Title>
                                 </Card.Footer>
                             </Card>
@@ -70,7 +70,7 @@ function Reviews() {
                                     </div>
                                 </Card.Body>
                                 <Card.Footer className="d-flex align-items-center">
-                                    <img src={Person4} className="img-fluid rounded-circle m-3 w-25" alt="customer img" />
+                                    <img src={Person4} className="img-fluid rounded-circle mx-3" alt="customer img" />
                                     <Card.Title>Anne William</Card.Title>
                                 </Card.Footer>
                             </Card>
