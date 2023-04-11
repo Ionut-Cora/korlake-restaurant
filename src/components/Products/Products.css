@@ -1,27 +1,14 @@
 
-.product {
-    padding-top: 60%;
+.card-title strong {
+    font-size: 1.5rem;
 }
 
-.product h3,
-.description {
-    color: #fff;
-}
-
-.product h3 {
-    font-size: 2rem;
-}
-
-.product p {
+.product-price {
     font-size: 1.3rem;
 }
 
-.price {
-    color: red;
-}
-
-@media screen and (max-width: 600px) {
-    .product {
-        padding-top: 20%;
+@media screen and (max-width: 992px) {
+    .card-title strong {
+        font-size: 1.3rem;
     }
 }

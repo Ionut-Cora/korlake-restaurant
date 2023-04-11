@@ -1,91 +1,24 @@
 
-#head-card {
-    background-color: #FFCD58;
+.menu-product img {
+    width: 100%;
 }
 
-#head-title {
-    background-color: #262626;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    clip-path: polygon(0% 0%, 100% 0%, 50% 100%, 0% 0%);
+#lunch img {
+    transform: scaleX(-1);
 }
 
-#head-title h1 {
-    color: white;
-    font-size: 5rem;
-    padding: 3rem 0;
+.background-dark,
+#lunch .card,
+#dessert .card {
+    background-color: rgb(33,37,41);
 }
 
-#breakfast {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../utils/img/breakfast-background.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../utils/img/breakfast-background.jpg);
+.menu-product h2 {
+    font-size: 3rem;
 }
 
-#lunch {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../utils/img/lunch-background.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../utils/img/lunch-background.jpg);
-}
-
-#dinner {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../utils/img/dinner-background.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../utils/img/dinner-background.jpg);
-}
-
-#dessert {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(../../utils/img/dessert-background.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../../utils/img/dessert-background.jpg);
-}
-
-#breakfast,
-#lunch,
-#dinner,
-#dessert {
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-}
-
-.background-product {
-    background-color: #FFCD58;
-}
-
-.menu-title {
-    background-color: #FFCD58;
-}
-
-.menu-title h2 {
-    margin-bottom: 0;
-    font-size: 2.5rem;
-}
-
-#background-menu-title {
-    background-color: #262626;
-}
-
-#menu-reservation-btn {
-    background-color: transparent;
-    border: 1px solid #FFCD58;
-    color: #FFCD58;
-    font-size: 1.125rem;
-    text-transform: uppercase;
-    padding: 17px 20px 16px;
-    margin: 20px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    margin-top: 100px;
-}
-
-#menu-reservation-btn:hover {
-    background-color: #ffc233;
-    color: black;
-}
-
-#menu-reservation-btn:active {
-    transition: all 0.5s;
-    transform: scale(0.9);
-}
-
-@media screen and (max-width: 600px) {
-    #head-title h1 {
-        font-size: 3.5rem;
+@media screen and (max-width: 992px) {
+    .menu-product h2 {
+        font-size: 2.3rem;
     }
 }

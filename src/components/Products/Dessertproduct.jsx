@@ -1,13 +1,20 @@
 import React from 'react';
+import Card from 'react-bootstrap/Card';
 import './Products.css';
 
 function Dessertproduct ( { dessertProduct } ) {
     return (
-        <div className="product">
-            <h3 className="mb-5">{dessertProduct.name}</h3>
-            <p className="description">{dessertProduct.description}</p>
-            <p className="price">{dessertProduct.currency}{dessertProduct.price}</p>
-        </div>
+        <Card className="h-100 border-0">
+            <Card.Body>
+                <Card.Title>
+                    <strong>{dessertProduct.name}</strong>
+                </Card.Title>
+                <Card.Text>{dessertProduct.description}</Card.Text>
+                <Card.Text className='product-price text-warning'>
+                    <strong>{dessertProduct.currency}{dessertProduct.price}</strong>
+                </Card.Text>
+            </Card.Body>
+        </Card>
     )
 }
 
