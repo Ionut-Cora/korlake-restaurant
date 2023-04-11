@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 function Header() {
     return(
         <div id="navbar">
-            <Navbar className='fixed-top' bg="warning" expand="lg">
+            <Navbar className='fixed-top' bg="warning" variant='light' expand="lg">
             <Container>
                 <Navbar.Brand href="/">Korlake</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
