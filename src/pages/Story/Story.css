@@ -14,28 +14,12 @@
     margin: 5rem;
 }
 
-#food {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 4%;
-    flex-wrap: wrap;
-}
-
-#food img {
-    width: 33.3%;
-    filter: brightness(75%);
-}
-
-#food img:hover {
-    filter: brightness(100%);
-}
-
 #header-img {
     width: 100%;
 }
 
-#paragraphs p {
-    font-size: 1.5rem;
+.images-gallery img {
+    width: 100%;
 }
 
 #stage {
@@ -52,13 +36,5 @@
     #stage {
         width: 100%;
         margin: 3rem 0;
-    }
-
-    #food {
-        margin-top: 3rem;
-    }
-
-    #food img {
-        width: 100%;
     }
 }

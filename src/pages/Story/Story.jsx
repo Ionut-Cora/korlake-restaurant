@@ -2,18 +2,18 @@ import React from 'react';
 import Layout from '../../components/Layout/Layout';
 import './Story.css';
 import Stage from '../../utils/img/stage.jpg';
-import g1 from '../../utils/img/g1.jpg';
-import g2 from '../../utils/img/g2.jpg';
-import g3 from '../../utils/img/g3.jpg';
-import g4 from '../../utils/img/g4.jpg';
 import g5 from '../../utils/img/g5.jpg';
 import g6 from '../../utils/img/g6.jpg';
-import g7 from '../../utils/img/g7.jpg';
-import g8 from '../../utils/img/g8.jpg';
-import g9 from '../../utils/img/g9.jpg';
 import g10 from '../../utils/img/g10.jpg';
-import g11 from '../../utils/img/g11.jpg';
-import g12 from '../../utils/img/g12.jpg';
+import g13 from '../../utils/img/g13.jpg';
+import g14 from '../../utils/img/g14.jpg';
+import g15 from '../../utils/img/g15.jpg';
+import g16 from '../../utils/img/g16.jpg';
+import g17 from '../../utils/img/g17.jpg';
+import g18 from '../../utils/img/g18.jpg';
+import g19 from '../../utils/img/g19.jpg';
+import BreakfastImage from '../../utils/img/breakfast-img.jpg';
+import DessertImage from '../../utils/img/dessert-img.jpg';
 
 function Story() {
     return(
@@ -50,20 +50,56 @@ function Story() {
                             easygoing social event of companions or a sentimental night out on the town.
                         </p>
                     </div>
-                    <h4>Some pictures from our restaurant</h4>
-                    <div id="food">
-                        <img src={g1} alt="beef"/>
-                        <img src={g2} alt="chocolate"/>
-                        <img src={g3} alt="veggies"/>
-                        <img src={g4} alt="beef"/>
-                        <img src={g5} alt="chocolate"/>
-                        <img src={g6} alt="veggies"/>
-                        <img src={g7} alt="beef"/>
-                        <img src={g8} alt="chocolate"/>
-                        <img src={g9} alt="veggies"/>
-                        <img src={g10} alt="beef"/>
-                        <img src={g11} alt="chocolate"/>
-                        <img src={g12} alt="veggies"/>
+                    
+
+                    <div className="container py-5">
+                        <h4>Let's take a look inside</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore possimus quibusdam animi facilis, illum vel mollitia odit! Corporis rem mollitia sed. Ex libero ut inventore debitis nulla quia dicta optio?</p>
+
+                        <div className="images-gallery row">
+                            <div className="col-12 col-md-4 px-2">
+                                <div className='my-3'>
+                                    <img src={g6} alt="" />
+                                </div>
+                                <div className='my-3'>
+                                    <img src={g19} alt="" />
+                                </div>
+                                <div className='my-3'>
+                                    <img src={g5} alt="" />
+                                </div>
+                                <div className='my-3'>
+                                    <img src={g13} alt="" />
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-4 px-2">
+                                <div className='my-3'>
+                                    <img src={g14} alt="" />
+                                </div>
+                                <div className='my-3'>
+                                    <img src={DessertImage} alt="" />
+                                </div>
+                                <div className='my-3'>
+                                    <img src={g15} alt="" />
+                                </div>
+                                <div className='my-3'>
+                                    <img src={g10} alt="" />
+                                </div>
+                            </div>
+                            <div className="col-12 col-md-4 px-2">
+                                <div className='my-3'>
+                                    <img src={BreakfastImage} alt="" />
+                                </div>
+                                <div className='my-3'>
+                                    <img src={g17} alt="" />
+                                </div>
+                                <div className='my-3'>
+                                    <img src={g18} alt="" />
+                                </div>
+                                <div className='my-3'>
+                                    <img src={g16} alt="" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </Layout>
