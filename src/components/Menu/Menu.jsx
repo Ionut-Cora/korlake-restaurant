@@ -38,18 +38,18 @@ function Menu() {
     return(
         <div>
             <Layout>
-                <div className=''>
+                <div>
                     <div className="menu-product">
                         <div className="py-5 mt-5" id="breakfast">                  
                             <div className="container">
-                                <h2 className='mb-3 mb-lg-5'>Breakfast</h2>
+                                <h2 className='text-center mb-3 mb-lg-5'>Breakfast</h2>
 
                                 <Row xs={1} md={2} className="flex-column-reverse flex-md-row">
                                     <Col className="d-flex align-items-center">
-                                        <img className='mb-4 mb-md-0' src={BreakfastImage} alt="" />
+                                        <img className='mb-4 mb-md-0' src={BreakfastImage} alt="breakfast img" />
                                     </Col>
 
-                                    <Col className="">                                       
+                                    <Col>                                       
                                         <div className="h-100 d-flex flex-column justify-content-center">
                                             {breakfastProducts.map((breakfastProduct) => (
                                                 <div className="mb-4" key={breakfastProduct.id}>
@@ -66,10 +66,10 @@ function Menu() {
                     <div className="menu-product background-dark text-light">
                         <div className="py-5" id="lunch">
                             <div className="container">
-                                <h2 className='mb-3 mb-lg-5'>Lunch</h2>
+                                <h2 className='text-center mb-3 mb-lg-5'>Lunch</h2>
 
-                                <Row xs={1} md={2} className="">
-                                    <Col className="">                                       
+                                <Row xs={1} md={2}>
+                                    <Col>                                       
                                         <div className="h-100 d-flex flex-column justify-content-center">
                                             {lunchProducts.map((lunchProduct) => (
                                                 <div className="mb-4" key={lunchProduct.id}>
@@ -80,7 +80,7 @@ function Menu() {
                                     </Col>
 
                                     <Col className="d-flex align-items-center">
-                                        <img className='mb-4 mb-md-0' src={LunchImage} alt="" />
+                                        <img className='mb-4 mb-md-0' src={LunchImage} alt="lunch img" />
                                     </Col>
                                 </Row>
                             </div>
@@ -90,14 +90,14 @@ function Menu() {
                     <div className="menu-product">
                         <div className="py-5" id="dinner">
                             <div className="container">
-                                <h2 className='mb-3 mb-lg-5'>Dinner</h2>
+                                <h2 className='text-center mb-3 mb-lg-5'>Dinner</h2>
 
                                 <Row xs={1} md={2} className="flex-column-reverse flex-md-row">
                                     <Col className="d-flex align-items-center">
-                                        <img className='mb-4 mb-md-0' src={DinnerImage} alt="" />
+                                        <img className='mb-4 mb-md-0' src={DinnerImage} alt="dinner img" />
                                     </Col>
 
-                                    <Col className="">                                       
+                                    <Col>                                       
                                         <div className="h-100 d-flex flex-column justify-content-center">
                                             {dinnerProducts.map((dinnerProduct) => (
                                                 <div className="mb-4" key={dinnerProduct.id}>
@@ -114,10 +114,10 @@ function Menu() {
                     <div className="menu-product background-dark text-light">
                         <div className="py-5" id="dessert">
                             <div className="container">
-                                <h2 className='mb-3 mb-lg-5'>Dessert</h2>
+                                <h2 className='text-center mb-3 mb-lg-5'>Dessert</h2>
 
-                                <Row xs={1} md={2} className="">
-                                    <Col className="">                                       
+                                <Row xs={1} md={2}>
+                                    <Col>                                       
                                         <div className="h-100 d-flex flex-column justify-content-center">
                                             {dessertProducts.map((dessertProduct) => (
                                                 <div className="mb-4" key={dessertProduct.id}>
@@ -128,13 +128,15 @@ function Menu() {
                                     </Col>
 
                                     <Col className="d-flex align-items-center">
-                                        <img className='mb-4 mb-md-0' src={DessertImage} alt="" />
+                                        <img className='mb-4 mb-md-0' src={DessertImage} alt="dessert img" />
                                     </Col>
                                 </Row>
 
-                                <Link to='/contact'>
-                                    <button className='btn btn-warning btn-lg shadow mt-5'>Reserve table</button>
-                                </Link>
+                                <div className='d-flex justify-content-center'>
+                                    <Link to='/contact'>
+                                        <button className='btn btn-warning btn-lg shadow mt-5'>Reserve table</button>
+                                    </Link>
+                                </div>
                             </div>                          
                         </div>                   
                     </div>

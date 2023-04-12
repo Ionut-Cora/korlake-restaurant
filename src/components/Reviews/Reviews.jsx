@@ -12,7 +12,7 @@ function Reviews() {
     return(
         <div className="py-5" id="reviews-page">
             <div className="container">
-                <h2 className="mb-5">Reviews</h2>
+                <h2 className="text-center mb-5">Reviews</h2>
                 <div id="reviews">
                     <Row xs={1} md={2} className="g-4">
                         <Col className="mb-4">

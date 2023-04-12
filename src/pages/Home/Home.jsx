@@ -15,9 +15,9 @@ function Home() {
                 <Layout>
                     <div className='h-100 d-flex align-items-center min-vh-100' id="head">
                         <div className='container'> 
-                            <h2 className="text-white text-capitalize">Welcome to</h2>
-                            <h1 className="text-white text-capitalize">Korlake restaurant</h1>
-                            <div className='mt-4'>
+                            <h2 className="text-white text-center text-capitalize">Welcome to</h2>
+                            <h1 className="text-white text-center text-capitalize">Korlake restaurant</h1>
+                            <div className='d-flex justify-content-center align-items-center flex-column flex-sm-row mt-4'>
                                 <Link to='/menu' id="menu-button">
                                     <button type='btn' className='btn btn-warning btn-lg text-uppercase px-5 mx-2 my-2 my-sm-0' id="top-button">Menu</button>
                                 </Link>
@@ -35,20 +35,22 @@ function Home() {
                                     <img src={Image} alt="about img"/>
                                 </div>
                                 <div className="col-12 col-lg-6" id="second-section-patagraphs">
-                                    <p className="m-5">
+                                    <p className="text-center m-5">
                                         Here at Korlake Restaurant we take pride in the 
                                         quality of the products used for each and every plate.
                                     </p>
-                                    <p className="m-5">
+                                    <p className="text-center m-5">
                                         We will probably give excellent client benefit, 
                                         the best quality fixings, and a noteworthy affair 
                                         whether it’s an uncommon occasion, easygoing social event 
                                         of companions or a sentimental night out on the town.
                                     </p>
             
-                                    <Link to="/story" id="story-button">
-                                        <button className='btn btn-dark btn-lg text-capitalize shadow'>View our story</button>
-                                    </Link>
+                                    <div className='d-flex justify-content-center'>
+                                        <Link to="/story" id="story-button">
+                                            <button className='btn btn-dark btn-lg text-capitalize shadow'>View our story</button>
+                                        </Link>
+                                    </div>
             
                                 </div>
                             </div>
@@ -57,50 +59,45 @@ function Home() {
     
                     <div className='text-light py-5' id="menu-section">
                         <div className="container">
-                            <h2 className="mb-5">Some of Our Favorites</h2>
+                            <h2 className="text-center text-capitalize mb-5">Some of our favorites</h2>
     
                             <div className="dish-card d-md-flex d-sm-block justify-content-around">
                                 <div className="col-md-6 col-sm-12 p-4">
-                                    <h3>English Breakfast</h3>
-                                    <p>
-                                        A full plate of sausages, tomatoes, mushrooms, bacon, 
-                                        black pudding, beans, served with toasted bread.
+                                    <h3 className='text-center text-capitalize'>English breakfast</h3>
+                                    <p className='text-center'>
+                                        A full plate of sausages, tomatoes, mushrooms, bacon, black pudding, beans, served with toasted bread.
                                     </p>
                                 </div>
     
                                 <div className="col-md-6 col-sm-12 p-4">
-                                    <h3>Spicy Beef Barbecue With Potatoes</h3>
-                                    <p>
-                                        A juicy spicy beef stake with roast potatoes and white
-                                        creamy sauce.
+                                    <h3 className='text-center text-capitalize'>Spicy beef barbecue with potatoes</h3>
+                                    <p className='text-center'>
+                                        A juicy spicy beef stake with roast potatoes and white creamy sauce.
                                     </p>
                                 </div>
                             </div>
     
                             <div className="dish-card d-md-flex d-sm-block justify-content-around">
                                 <div className="col-md-6 col-sm-12 p-4">
-                                    <h3>Roasty Trout with vegetables</h3>
-                                    <p>
-                                        A portion of roasty juicy trout, served with roast organic
-                                        vegetables from the farm.
+                                    <h3 className='text-center text-capitalize'>Roasty trout with vegetables</h3>
+                                    <p className='text-center'>
+                                        A portion of roasty juicy trout, served with roast organic vegetables from the farm.
                                     </p>
                                 </div>
     
                                 <div className="col-md-6 col-sm-12 p-4">
-                                    <h3>Spaghetti Bolognese</h3>
-                                    <p>
-                                        A big portion of the true italian receipe of 
-                                        spaghetti bolognese. The receipe is come directly from Italy.
+                                    <h3 className='text-center text-capitalize'>Spaghetti bolognese</h3>
+                                    <p className='text-center'>
+                                        A big portion of the true italian receipe of spaghetti bolognese. The receipe is come directly from Italy.
                                     </p>
                                 </div>
                             </div>
     
                             <div className="dish-card d-md-flex d-sm-block justify-content-around">
                                 <div className="col-md-6 col-sm-12 p-4">
-                                    <h3>Warm Chocolate Fudge Cake</h3>
-                                    <p>
-                                        A creamy warm chocolate fudge cake, served with one cup of
-                                        icecream.
+                                    <h3 className='text-center text-capitalize'>Warm chocolate fudge cake</h3>
+                                    <p className='text-center'>
+                                        A creamy warm chocolate fudge cake, served with one cup of icecream.
                                     </p>
                                 </div>
     
@@ -118,25 +115,25 @@ function Home() {
                                 <div className="row m-0">
                                     <div className="food-div col-12 col-sm-6 col-lg-3 p-0 d-flex align-items-center justify-content-center">
                                         <img className='w-100' src={f1} alt="salmon and poached egg bruschetta" />
-                                        <p className='text-uppercase position-absolute w-75 text-light'>
+                                        <p className='text-center text-uppercase position-absolute w-75 text-light'>
                                             <strong>Poached egg bruschetta</strong>
                                         </p>
                                     </div>
                                     <div className="food-div col-12 col-sm-6 col-lg-3 p-0 d-flex align-items-center justify-content-center">
                                         <img className='w-100' src={f2} alt="pumpkin soup" />
-                                        <p className='text-uppercase position-absolute w-75 text-light'>
+                                        <p className='text-center text-uppercase position-absolute w-75 text-light'>
                                             <strong>Pumpkin soup</strong>
                                         </p>
                                     </div>
                                     <div className="food-div col-12 col-sm-6 col-lg-3 p-0 d-flex align-items-center justify-content-center">
                                         <img className='w-100' src={f3} alt="Pork, baked potatoes, eggs and vegetables" />
-                                        <p className='text-uppercase position-absolute w-75 text-light'>
+                                        <p className='text-center text-uppercase position-absolute w-75 text-light'>
                                             <strong>Pork and vegetables</strong>
                                         </p>
                                     </div>
                                     <div className="food-div col-12 col-sm-6 col-lg-3 p-0 d-flex align-items-center justify-content-center">
                                         <img className='w-100' src={f9} alt="Tiramisu" />
-                                        <p className='text-uppercase position-absolute w-75 text-light'>
+                                        <p className='text-center text-uppercase position-absolute w-75 text-light'>
                                             <strong>Tiramisu</strong>
                                         </p>
                                     </div>

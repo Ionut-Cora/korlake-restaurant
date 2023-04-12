@@ -1,17 +1,22 @@
 
+.our-story {
+    background-color: rgb(33,37,41);
+}
+
+.our-story img {
+    width: 75%;
+}
+
 #allstory h1 {
-    padding: 3rem 0;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 #allstory h3 {
     font-size: 2rem;
-    margin-bottom: 2rem;
 }
 
 #allstory h4 {
     font-size: 2rem;
-    margin: 5rem;
 }
 
 #header-img {
@@ -27,14 +32,12 @@
     margin: 5rem 0;
 }
 
-@media screen and (max-width: 600px) {
-
+@media screen and (max-width: 992px) {
     #allstory h1 {
-        font-size: 3.5rem;
+        font-size: 2.3rem;
     }
 
-    #stage {
+    .our-story img {
         width: 100%;
-        margin: 3rem 0;
     }
 }

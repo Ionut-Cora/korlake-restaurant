@@ -30,10 +30,6 @@
 
 /* SECOND_SECTION */
 
-#second-section p {
-    font-size: 1.3rem;
-}
-
 #second-img img {
     width: 100%;
 }
@@ -42,10 +38,6 @@
 
 #menu-section {
     background-color: rgb(33,37,41);
-}
-
-#menu-section p {
-    font-size: 1.2rem;
 }
 
 /* FOOD SECTION */

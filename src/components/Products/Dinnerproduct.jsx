@@ -6,11 +6,11 @@ function Dinnerproduct( { dinnerProduct } ) {
     return(
         <Card className="h-100 border-0">
             <Card.Body>
-                <Card.Title>
+                <Card.Title className='text-center'>
                     <strong>{dinnerProduct.name}</strong>
                 </Card.Title>
-                <Card.Text>{dinnerProduct.description}</Card.Text>
-                <Card.Text className='product-price text-warning'>
+                <Card.Text className='text-center'>{dinnerProduct.description}</Card.Text>
+                <Card.Text className='product-price text-warning text-center'>
                     <strong>{dinnerProduct.currency}{dinnerProduct.price}</strong>
                 </Card.Text>
             </Card.Body>
