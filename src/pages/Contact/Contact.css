@@ -3,21 +3,6 @@
     font-size: 3rem;
 }
 
-/* #contact-page {
-    width: 80%;
-    margin: auto;
-} */
-
-/* #contact-reservations {
-    display: flex;
-    justify-content: space-between;
-} */
-
-/* #allcontacts {
-    width: 50%;
-    padding: 5rem 0;
-} */
-
 #allcontacts h1 {
     padding: 5%;
 }
@@ -29,10 +14,6 @@
 #allcontacts ion-icon {
     font-size: 1.4rem;
 }
-
-/* #allcontacts p {
-    font-size: 1.3rem;
-} */
 
 #allcontacts .hov:hover {
     cursor: pointer;
@@ -46,61 +27,9 @@
     color: #FFFFFF;
 }
 
-/* #reservations-div {
-    width: 50%;
-    padding: 0 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-@media screen and (max-width: 1450px) {
-    /* #allcontacts {
-        width: 40%;
-    } */
-
-    /* #reservations-div {
-        width: 60%;
-    } */
-}
-
-@media screen and (max-width: 1200px) {
-    /* #allcontacts {
-        width: 30%;
-    } */
-
-    /* #reservations-div {
-        width: 70%;
-    } */
-}
-
-@media screen and (max-width: 1040px) {
-    /* #contact-reservations {
-        display: block;
-    } */
-
-    /* #allcontacts {
-        width: 100%;
-    } */
-
-    /* #reservations-div {
-        width: 100%;
-    } */
-}
-
-@media screen and (max-width: 800px) {
-    #contact-page {
-        width: 100%;
-    }
-
-    /* #reservations-div {
-        padding: 0 3rem;
-    } */
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
     #contact-page h1 {
-        font-size: 3.5rem;
+        font-size: 2.3rem;
     }
 
     /* #reservations-div {

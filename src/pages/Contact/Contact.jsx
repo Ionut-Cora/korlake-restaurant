@@ -12,7 +12,7 @@ function Contact() {
                 <div id="contact-page">
                     <div className="container py-5">
                         <h1 className='text-center text-capitalize mt-5'>Contact &amp; reservations</h1>
-                        <div className='row py-5' id="contact-reservations">
+                        <div className='row pt-5' id="contact-reservations">
                             <div className='col-12 col-lg-7 d-flex align-items-center justify-content-center' id="reservations-div">
                                 <Reservation />
                             </div>

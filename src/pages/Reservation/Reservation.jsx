@@ -57,14 +57,12 @@ class Reservation extends React.Component {
         event.preventDefault();
 
         const results = document.getElementById('results');
-
         const firstName = document.getElementById('first-name');
         const lastName = document.getElementById('last-name');
         const phoneNumber = document.getElementById('phone-number');
         const email = document.getElementById('email');
         const date = document.getElementById('date');
         const guests = document.getElementById('guests');
-        const form = document.getElementById('form');
 
         if (this.state.firstName === '') {
             firstName.style.border = '1px solid red';
@@ -103,53 +101,77 @@ class Reservation extends React.Component {
         }
         
         if (this.state.firstName !== '' && this.state.lastName !== '' && this.state.phoneNumber !== '' && this.state.email !== '' && this.state.date !== '' && this.state.numberOfGuests !== '') {
-
-            form.style.display = 'none';
             
             results.innerHTML = `
-                <h3>Thank You !</h3>
-                <p>Dear ${this.state.firstName} ${this.state.lastName}, <br>
-                Thank you for your reservation for ${this.state.numberOfGuests} people on date of ${this.state.date}! <br>
-                You will receive a confirmation on your address email ${this.state.email} <br>
-                and if will be any issue, we will contact you on your phone number ${this.state.phoneNumber}.</p>               
+                <div class="modal" id="modal" tabindex="-1">
+                    <div class="modal-dialog d-flex align-items-center">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Thank You!</h5>
+                                <button type="button" class="btn-close btn-warning border-0" id="header-close-btn" data-bs-dismiss="modal" aria-label="Close">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Dear ${this.state.firstName} ${this.state.lastName}, <br>
+                                Thank you for your reservation for ${this.state.numberOfGuests} people on date of ${this.state.date}! <br>
+                                You will receive a confirmation on your address email ${this.state.email} <br>
+                                and if will be any issue, we will contact you on your phone number ${this.state.phoneNumber}.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-warning" id="footer-close-btn" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             `;
         }
+
+        const modalHeaderClose = document.getElementById('header-close-btn');
+        const modalFooterClose = document.getElementById('footer-close-btn');
+
+        modalHeaderClose.addEventListener('click', () => {
+            window.location.reload(false);
+        });
+        modalFooterClose.addEventListener('click', () => {
+            window.location.reload(false);
+        });
     }
 
     render() {
         return(
             <div id="reservation-page">
-                {/* <h2>Make a reservation</h2> */}
-
                 <Form className="bg-warning p-5" id="form" onSubmit={(event) => this.handleSubmit(event)}>
                     <Form.Group className="row mb-3">
-                        <Col>
+                        <Col className="mb-3 mb-md-0" md={6}>
                             <Form.Label htmlFor="first-name" className="text-capitalize">First name</Form.Label>
                             <Form.Control type="text" name="first-name" id="first-name" onChange={(event) => this.handleFirstName(event)} />
                         </Col>
-                        <Col>
+                        <Col md={6}>
                             <Form.Label htmlFor="last-name" className="text-capitalize">Last name</Form.Label>
                             <Form.Control type="text" name="last-name" id="last-name" onChange={(event) => this.handleLastName(event)} />
                         </Col>
                     </Form.Group>
 
                     <Form.Group className="row mb-3">
-                        <Col>
+                        <Col className="mb-3 mb-md-0" md={6}>
                             <Form.Label htmlFor="phone-number" className="text-capitalize">Phone number</Form.Label>
                             <Form.Control type="tel" name="phone-number" id="phone-number" onChange={(event) => this.handlePhoneNumber(event)} />
                         </Col>
-                        <Col>
+                        <Col md={6}>
                             <Form.Label htmlFor="email" className="text-capitalize">Email address</Form.Label>
                             <Form.Control type="email" name="email" id="email" onChange={(event) => this.handleEmail(event)} />
                         </Col>
                     </Form.Group>
 
                     <Form.Group className="row mb-3">
-                        <Col>
+                        <Col className="mb-3 mb-md-0" md={6}>
                             <Form.Label htmlFor="date">Date</Form.Label>
                             <Form.Control type="date" name="date" id="date" onChange={(event) => this.handleDate(event)} />
                         </Col>
-                        <Col>
+                        <Col md={6}>
                             <Form.Label htmlFor="guests" className="text-capitalize">Number of guests</Form.Label>
                             <Form.Control type="number" name="guests" id="guests" onChange={(event) => this.handleNumberOfGuests(event)} />
                         </Col>
@@ -165,43 +187,6 @@ class Reservation extends React.Component {
                     </Button>
                 </Form>
 
-                {/* <form id="form" onSubmit={(event) => this.handleSubmit(event)}>
-                    <div className="group">
-                        <div className="mini-group">
-                            <label htmlFor="first-name">First Name</label>
-                            <input type="text" name="first-name" id="first-name" onChange={(event) => this.handleFirstName(event)} />
-                        </div>
-                        <div className="mini-group">
-                            <label htmlFor="last-name">Last Name</label>
-                            <input type="text" name="last-name" id="last-name" onChange={(event) => this.handleLastName(event)} />
-                        </div>
-                    </div>
-
-                    <div className="group">
-                        <div className="mini-group">
-                            <label htmlFor="phone-number">Phone Number</label>
-                            <input type="tel" name="phone-number" id="phone-number" onChange={(event) => this.handlePhoneNumber(event)} />
-                        </div>
-                        <div className="mini-group">
-                            <label htmlFor="email">Email</label>
-                            <input type="email" name="email" id="email" onChange={(event) => this.handleEmail(event)} />
-                        </div>
-                    </div>
-
-                    <div className="group">
-                        <div className="mini-group">
-                            <label htmlFor="date">Date</label>
-                            <input type="date" name="date" id="date" onChange={(event) => this.handleDate(event)} />
-                        </div>
-                        <div className="mini-group">
-                            <label htmlFor="guests">Number Of Guests</label>
-                            <input type="number" name="guests" id="guests" onChange={(event) => this.handleNumberOfGuests(event)} />
-                        </div>
-                    </div>
-                    <label htmlFor="comments">Comments</label>
-                    <textarea name="comments" cols="20" rows="3" id="comments" onChange={(event) => this.handleComments(event)}></textarea>
-                    <input type="submit" id="submit-btn" />
-                </form> */}
                 <div id="results"></div>
             </div>
         )

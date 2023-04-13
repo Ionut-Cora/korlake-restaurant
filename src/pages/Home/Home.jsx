@@ -19,10 +19,10 @@ function Home() {
                             <h1 className="text-white text-center text-capitalize">Korlake restaurant</h1>
                             <div className='d-flex justify-content-center align-items-center flex-column flex-sm-row mt-4'>
                                 <Link to='/menu' id="menu-button">
-                                    <button type='btn' className='btn btn-warning btn-lg text-uppercase px-5 mx-2 my-2 my-sm-0' id="top-button">Menu</button>
+                                    <button type='btn' className='btn btn-warning btn-lg text-uppercase px-5 mx-2 my-2 my-sm-0' id="top-button">Our menu</button>
                                 </Link>
                                 <Link to='/contact' id="reservation-button">
-                                    <button type='btn' className='btn btn-outline-warning btn-lg text-uppercase mx-2 my-2 my-sm-0' id="top-reservation-button">Reserve table</button>
+                                    <button type='btn' className='btn btn-outline-warning btn-lg text-uppercase mx-2 my-2 my-sm-0' id="top-reservation-button">Book a table</button>
                                 </Link>
                             </div>                          
                         </div>    

@@ -1,102 +1,17 @@
 
-/* * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-} */
-
-/* #reservation-page {
-    padding: 3rem 0;
-} */
-
 #reservation-page h2 {
     margin-bottom: 2rem;
 }
 
-/* form {
+/* MODAL */
+
+#results #modal {
     display: flex;
-    flex-direction: column;
-    margin: auto;
-    background-color: #FFCD58;
-    padding: 1rem;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-} */
-
-/* form input,
-form textarea {
-    border: 0;
-    padding: 0.5rem;
-    font-family: Arial, Helvetica, sans-serif;
-} */
-
-/* form input:focus,
-form textarea:focus {
-    outline: none;
-} */
-
-/* .group {
-    display: flex;
-    justify-content: space-between;
-} */
-
-/* .mini-group {
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    margin: 1rem 0;
-} */
-
-/* #reservation-page label {
-    font-size: 1.3rem;
-} */
-
-/* #submit-btn {
-    margin: 1.5rem auto;
-    text-transform: uppercase;
-    background-color: #A4C05B;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    font-size: 1.125rem;
-    padding: 17px 20px 16px;
-} */
-
-/* #submit-btn:hover {
-    background-color: #56A870;
-} */
-
-/* #submit-btn:active {
-    transition: all 0.5s;
-    transform: scale(0.9);
-} */
-
-#results h3 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    align-items: center;
 }
 
-#results p {
-    font-size: 1.3rem;
-}
-
-@media screen and (max-width: 600px) {
-    /* #reservation-page {
-        width: 90%;
-    } */
-}
-
-@media screen and (max-width: 450px) {
-    /* .group {
-        display: block;
-    }
-
-    .mini-group {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        margin: 0.5rem auto;
-    }
-
-    #comments {
-        width: 80%;
-        margin: auto;
-    } */
+#results #modal .btn-close {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
