@@ -10,32 +10,36 @@ function Contact() {
         <div>
             <Layout>
                 <div id="contact-page">
-                    <h1>Contact &amp; Reservations</h1>
-                    <div id="contact-reservations">
-                        <div id="reservations-div">
-                            <Reservation />
+                    <div className="container py-5">
+                        <h1 className='text-center text-capitalize mt-5'>Contact &amp; reservations</h1>
+                        <div className='row py-5' id="contact-reservations">
+                            <div className='col-12 col-lg-7 d-flex align-items-center justify-content-center' id="reservations-div">
+                                <Reservation />
+                            </div>
+
+                            <div className='col-12 col-lg-5 d-flex flex-column justify-content-around mt-5 mt-lg-0' id="allcontacts">
+                                <div className="hov d-flex flex-column align-items-center">
+                                    <ion-icon name="call-outline"></ion-icon>
+                                    <p>0800800800</p>
+                                </div>
+                                <div className="hov d-flex flex-column align-items-center">
+                                    <ion-icon name="mail-outline"></ion-icon>
+                                    <p>example@email.com</p>
+                                </div>
+                                <div className="hov d-flex flex-column align-items-center">
+                                    <ion-icon name="location-outline"></ion-icon>
+                                    <p>123 Street Name</p>
+                                    <p>London WE0 1LO</p>
+                                </div>
+                                <div className="d-flex flex-column align-items-center">
+                                    <ion-icon name="time-outline"></ion-icon>
+                                    <p>Monday-Friday 8:00am-10:00pm</p>
+                                    <p>Weekend 9:00am-11:00pm</p>
+                                </div>
+                            </div>
+                            
                         </div>
 
-                        <div id="allcontacts">
-                            <div className="hov m-5">
-                                <ion-icon name="call-outline"></ion-icon>
-                                <p>0800800800</p>
-                            </div>
-                            <div className="hov m-5">
-                                <ion-icon name="mail-outline"></ion-icon>
-                                <p>example@gmail.com</p>
-                            </div>
-                            <div className="hov m-5">
-                                <ion-icon name="location-outline"></ion-icon>
-                                <p>123 Fake Street</p>
-                                <p>London WE0 1LO</p>
-                            </div>
-                            <div className="m-5">
-                                <ion-icon name="time-outline"></ion-icon>
-                                <p>Monday-Friday 8:00am-10:00pm</p>
-                                <p>Weekend 9:00am-11:00pm</p>
-                            </div>
-                        </div>
                         
                     </div>
 

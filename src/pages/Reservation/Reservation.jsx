@@ -1,4 +1,7 @@
 import React from "react";
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Col from 'react-bootstrap/Col';
 import './Reservation.css';
 
 class Reservation extends React.Component {
@@ -115,45 +118,92 @@ class Reservation extends React.Component {
 
     render() {
         return(
-                    <div id="reservation-page">
-                        <h2>Make a reservation</h2>
-                        <form id="form" onSubmit={(event) => this.handleSubmit(event)}>
-                            <div className="group">
-                                <div className="mini-group">
-                                    <label htmlFor="first-name">First Name</label>
-                                    <input type="text" name="first-name" id="first-name" onChange={(event) => this.handleFirstName(event)} />
-                                </div>
-                                <div className="mini-group">
-                                    <label htmlFor="last-name">Last Name</label>
-                                    <input type="text" name="last-name" id="last-name" onChange={(event) => this.handleLastName(event)} />
-                                </div>
-                            </div>
-                            <div className="group">
-                                <div className="mini-group">
-                                    <label htmlFor="phone-number">Phone Number</label>
-                                    <input type="tel" name="phone-number" id="phone-number" onChange={(event) => this.handlePhoneNumber(event)} />
-                                </div>
-                                <div className="mini-group">
-                                    <label htmlFor="email">Email</label>
-                                    <input type="email" name="email" id="email" onChange={(event) => this.handleEmail(event)} />
-                                </div>
-                            </div>
-                            <div className="group">
-                                <div className="mini-group">
-                                    <label htmlFor="date">Date</label>
-                                    <input type="date" name="date" id="date" onChange={(event) => this.handleDate(event)} />
-                                </div>
-                                <div className="mini-group">
-                                    <label htmlFor="guests">Number Of Guests</label>
-                                    <input type="number" name="guests" id="guests" onChange={(event) => this.handleNumberOfGuests(event)} />
-                                </div>
-                            </div>
-                            <label htmlFor="comments">Comments</label>
-                            <textarea name="comments" cols="20" rows="3" id="comments" onChange={(event) => this.handleComments(event)}></textarea>
-                            <input type="submit" id="submit-btn" />
-                        </form>
-                        <div id="results"></div>
+            <div id="reservation-page">
+                {/* <h2>Make a reservation</h2> */}
+
+                <Form className="bg-warning p-5" id="form" onSubmit={(event) => this.handleSubmit(event)}>
+                    <Form.Group className="row mb-3">
+                        <Col>
+                            <Form.Label htmlFor="first-name" className="text-capitalize">First name</Form.Label>
+                            <Form.Control type="text" name="first-name" id="first-name" onChange={(event) => this.handleFirstName(event)} />
+                        </Col>
+                        <Col>
+                            <Form.Label htmlFor="last-name" className="text-capitalize">Last name</Form.Label>
+                            <Form.Control type="text" name="last-name" id="last-name" onChange={(event) => this.handleLastName(event)} />
+                        </Col>
+                    </Form.Group>
+
+                    <Form.Group className="row mb-3">
+                        <Col>
+                            <Form.Label htmlFor="phone-number" className="text-capitalize">Phone number</Form.Label>
+                            <Form.Control type="tel" name="phone-number" id="phone-number" onChange={(event) => this.handlePhoneNumber(event)} />
+                        </Col>
+                        <Col>
+                            <Form.Label htmlFor="email" className="text-capitalize">Email address</Form.Label>
+                            <Form.Control type="email" name="email" id="email" onChange={(event) => this.handleEmail(event)} />
+                        </Col>
+                    </Form.Group>
+
+                    <Form.Group className="row mb-3">
+                        <Col>
+                            <Form.Label htmlFor="date">Date</Form.Label>
+                            <Form.Control type="date" name="date" id="date" onChange={(event) => this.handleDate(event)} />
+                        </Col>
+                        <Col>
+                            <Form.Label htmlFor="guests" className="text-capitalize">Number of guests</Form.Label>
+                            <Form.Control type="number" name="guests" id="guests" onChange={(event) => this.handleNumberOfGuests(event)} />
+                        </Col>
+                    </Form.Group>
+
+                    <Form.Group className="mb-3">
+                        <Form.Label htmlFor="comments">Comments</Form.Label>
+                        <Form.Control as="textarea" name="comments" cols={20} rows={3} id="comments" onChange={(event) => this.handleComments(event)} />
+                    </Form.Group>
+
+                    <Button variant="dark" type="submit" id="submit-btn">
+                        Submit
+                    </Button>
+                </Form>
+
+                {/* <form id="form" onSubmit={(event) => this.handleSubmit(event)}>
+                    <div className="group">
+                        <div className="mini-group">
+                            <label htmlFor="first-name">First Name</label>
+                            <input type="text" name="first-name" id="first-name" onChange={(event) => this.handleFirstName(event)} />
+                        </div>
+                        <div className="mini-group">
+                            <label htmlFor="last-name">Last Name</label>
+                            <input type="text" name="last-name" id="last-name" onChange={(event) => this.handleLastName(event)} />
+                        </div>
                     </div>
+
+                    <div className="group">
+                        <div className="mini-group">
+                            <label htmlFor="phone-number">Phone Number</label>
+                            <input type="tel" name="phone-number" id="phone-number" onChange={(event) => this.handlePhoneNumber(event)} />
+                        </div>
+                        <div className="mini-group">
+                            <label htmlFor="email">Email</label>
+                            <input type="email" name="email" id="email" onChange={(event) => this.handleEmail(event)} />
+                        </div>
+                    </div>
+
+                    <div className="group">
+                        <div className="mini-group">
+                            <label htmlFor="date">Date</label>
+                            <input type="date" name="date" id="date" onChange={(event) => this.handleDate(event)} />
+                        </div>
+                        <div className="mini-group">
+                            <label htmlFor="guests">Number Of Guests</label>
+                            <input type="number" name="guests" id="guests" onChange={(event) => this.handleNumberOfGuests(event)} />
+                        </div>
+                    </div>
+                    <label htmlFor="comments">Comments</label>
+                    <textarea name="comments" cols="20" rows="3" id="comments" onChange={(event) => this.handleComments(event)}></textarea>
+                    <input type="submit" id="submit-btn" />
+                </form> */}
+                <div id="results"></div>
+            </div>
         )
     }
 }

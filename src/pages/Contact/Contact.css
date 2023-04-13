@@ -1,23 +1,22 @@
 
 #contact-page h1 {
-    font-size: 5rem;
-    padding: 3rem 0;
+    font-size: 3rem;
 }
 
-#contact-page {
+/* #contact-page {
     width: 80%;
     margin: auto;
-}
+} */
 
-#contact-reservations {
+/* #contact-reservations {
     display: flex;
     justify-content: space-between;
-}
+} */
 
-#allcontacts {
+/* #allcontacts {
     width: 50%;
     padding: 5rem 0;
-}
+} */
 
 #allcontacts h1 {
     padding: 5%;
@@ -25,61 +24,68 @@
 
 #phone img {
     width: 100%;
-    margin-top: 5%;
 }
 
 #allcontacts ion-icon {
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
-#allcontacts p {
+/* #allcontacts p {
     font-size: 1.3rem;
-}
+} */
 
 #allcontacts .hov:hover {
     cursor: pointer;
 }
 
-#reservations-div {
+#contact-page #reviews-page {
+    background-color: rgb(33,37,41);
+}
+
+#contact-page #reviews-page h2 {
+    color: #FFFFFF;
+}
+
+/* #reservations-div {
     width: 50%;
     padding: 0 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 @media screen and (max-width: 1450px) {
-    #allcontacts {
+    /* #allcontacts {
         width: 40%;
-    }
+    } */
 
-    #reservations-div {
+    /* #reservations-div {
         width: 60%;
-    }
+    } */
 }
 
 @media screen and (max-width: 1200px) {
-    #allcontacts {
+    /* #allcontacts {
         width: 30%;
-    }
+    } */
 
-    #reservations-div {
+    /* #reservations-div {
         width: 70%;
-    }
+    } */
 }
 
 @media screen and (max-width: 1040px) {
-    #contact-reservations {
+    /* #contact-reservations {
         display: block;
-    }
+    } */
 
-    #allcontacts {
+    /* #allcontacts {
         width: 100%;
-    }
+    } */
 
-    #reservations-div {
+    /* #reservations-div {
         width: 100%;
-    }
+    } */
 }
 
 @media screen and (max-width: 800px) {
@@ -87,9 +93,9 @@
         width: 100%;
     }
 
-    #reservations-div {
+    /* #reservations-div {
         padding: 0 3rem;
-    }
+    } */
 }
 
 @media screen and (max-width: 600px) {
@@ -97,9 +103,9 @@
         font-size: 3.5rem;
     }
 
-    #reservations-div {
+    /* #reservations-div {
         padding: 0;
-    }
+    } */
 }
 
 

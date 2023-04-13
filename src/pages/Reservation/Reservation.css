@@ -1,73 +1,72 @@
 
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+} */
 
-#reservation-page {
+/* #reservation-page {
     padding: 3rem 0;
-}
+} */
 
 #reservation-page h2 {
     margin-bottom: 2rem;
 }
 
-form {
+/* form {
     display: flex;
     flex-direction: column;
     margin: auto;
     background-color: #FFCD58;
     padding: 1rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+} */
 
-form input,
+/* form input,
 form textarea {
     border: 0;
     padding: 0.5rem;
     font-family: Arial, Helvetica, sans-serif;
-}
+} */
 
-form input:focus,
+/* form input:focus,
 form textarea:focus {
     outline: none;
-}
+} */
 
-.group {
+/* .group {
     display: flex;
     justify-content: space-between;
-}
+} */
 
-.mini-group {
+/* .mini-group {
     display: flex;
     flex-direction: column;
     width: 40%;
     margin: 1rem 0;
-}
+} */
 
-#reservation-page label {
+/* #reservation-page label {
     font-size: 1.3rem;
-}
+} */
 
-#submit-btn {
-    /* width: 25%; */
+/* #submit-btn {
     margin: 1.5rem auto;
     text-transform: uppercase;
     background-color: #A4C05B;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     font-size: 1.125rem;
     padding: 17px 20px 16px;
-}
+} */
 
-#submit-btn:hover {
+/* #submit-btn:hover {
     background-color: #56A870;
-}
+} */
 
-#submit-btn:active {
+/* #submit-btn:active {
     transition: all 0.5s;
     transform: scale(0.9);
-}
+} */
 
 #results h3 {
     font-size: 2rem;
@@ -79,13 +78,13 @@ form textarea:focus {
 }
 
 @media screen and (max-width: 600px) {
-    #reservation-page {
+    /* #reservation-page {
         width: 90%;
-    }
+    } */
 }
 
 @media screen and (max-width: 450px) {
-    .group {
+    /* .group {
         display: block;
     }
 
@@ -99,5 +98,5 @@ form textarea:focus {
     #comments {
         width: 80%;
         margin: auto;
-    }
+    } */
 }
