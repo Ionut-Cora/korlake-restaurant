@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/korlake-restaurant/static/css/main.a070b618.chunk.css",
-    "main.js": "/korlake-restaurant/static/js/main.0615c304.chunk.js",
-    "main.js.map": "/korlake-restaurant/static/js/main.0615c304.chunk.js.map",
+    "main.js": "/korlake-restaurant/static/js/main.89d33200.chunk.js",
+    "main.js.map": "/korlake-restaurant/static/js/main.89d33200.chunk.js.map",
     "runtime-main.js": "/korlake-restaurant/static/js/runtime-main.dd54dd98.js",
     "runtime-main.js.map": "/korlake-restaurant/static/js/runtime-main.dd54dd98.js.map",
     "static/css/2.e2642120.chunk.css": "/korlake-restaurant/static/css/2.e2642120.chunk.css",
-    "static/js/2.885137ff.chunk.js": "/korlake-restaurant/static/js/2.885137ff.chunk.js",
-    "static/js/2.885137ff.chunk.js.map": "/korlake-restaurant/static/js/2.885137ff.chunk.js.map",
+    "static/js/2.c3267e70.chunk.js": "/korlake-restaurant/static/js/2.c3267e70.chunk.js",
+    "static/js/2.c3267e70.chunk.js.map": "/korlake-restaurant/static/js/2.c3267e70.chunk.js.map",
     "static/js/3.e314b801.chunk.js": "/korlake-restaurant/static/js/3.e314b801.chunk.js",
     "static/js/3.e314b801.chunk.js.map": "/korlake-restaurant/static/js/3.e314b801.chunk.js.map",
     "index.html": "/korlake-restaurant/index.html",
     "static/css/2.e2642120.chunk.css.map": "/korlake-restaurant/static/css/2.e2642120.chunk.css.map",
     "static/css/main.a070b618.chunk.css.map": "/korlake-restaurant/static/css/main.a070b618.chunk.css.map",
-    "static/js/2.885137ff.chunk.js.LICENSE.txt": "/korlake-restaurant/static/js/2.885137ff.chunk.js.LICENSE.txt",
+    "static/js/2.c3267e70.chunk.js.LICENSE.txt": "/korlake-restaurant/static/js/2.c3267e70.chunk.js.LICENSE.txt",
     "static/media/about-image.4f0a3068.jpg": "/korlake-restaurant/static/media/about-image.4f0a3068.jpg",
     "static/media/breakfast-img.69d48209.jpg": "/korlake-restaurant/static/media/breakfast-img.69d48209.jpg",
     "static/media/dessert-img.0cbbcaaa.jpg": "/korlake-restaurant/static/media/dessert-img.0cbbcaaa.jpg",
@@ -44,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.dd54dd98.js",
     "static/css/2.e2642120.chunk.css",
-    "static/js/2.885137ff.chunk.js",
+    "static/js/2.c3267e70.chunk.js",
     "static/css/main.a070b618.chunk.css",
-    "static/js/main.0615c304.chunk.js"
+    "static/js/main.89d33200.chunk.js"
   ]
 }
