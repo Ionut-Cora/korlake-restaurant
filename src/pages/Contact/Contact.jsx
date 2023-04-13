@@ -36,11 +36,8 @@ function Contact() {
                                     <p>Monday-Friday 8:00am-10:00pm</p>
                                     <p>Weekend 9:00am-11:00pm</p>
                                 </div>
-                            </div>
-                            
-                        </div>
-
-                        
+                            </div>                            
+                        </div>                       
                     </div>
 
                     <Reviews />

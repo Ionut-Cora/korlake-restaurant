@@ -39,8 +39,7 @@ function Story() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
+                    </div>                  
 
                     <div className="container py-5">
                         <h4 className='mb-3 text-center text-capitalize'>Let's take a look inside</h4>
