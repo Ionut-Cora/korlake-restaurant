@@ -10,6 +10,11 @@
     font-size: 5rem;
 }
 
+#top-button {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
 #head h2,
 #head h1,
 #top-button,
