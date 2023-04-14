@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/korlake-restaurant/static/css/main.0088ebec.chunk.css",
-    "main.js": "/korlake-restaurant/static/js/main.649c52f8.chunk.js",
-    "main.js.map": "/korlake-restaurant/static/js/main.649c52f8.chunk.js.map",
+    "main.js": "/korlake-restaurant/static/js/main.e8744167.chunk.js",
+    "main.js.map": "/korlake-restaurant/static/js/main.e8744167.chunk.js.map",
     "runtime-main.js": "/korlake-restaurant/static/js/runtime-main.dd54dd98.js",
     "runtime-main.js.map": "/korlake-restaurant/static/js/runtime-main.dd54dd98.js.map",
     "static/css/2.e2642120.chunk.css": "/korlake-restaurant/static/css/2.e2642120.chunk.css",
@@ -46,6 +46,6 @@
     "static/css/2.e2642120.chunk.css",
     "static/js/2.c3267e70.chunk.js",
     "static/css/main.0088ebec.chunk.css",
-    "static/js/main.649c52f8.chunk.js"
+    "static/js/main.e8744167.chunk.js"
   ]
 }
